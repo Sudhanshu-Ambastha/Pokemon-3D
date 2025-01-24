@@ -84,6 +84,9 @@ We welcome contributions from the community! You can help by:
     ```
 7. **Create a Pull Request**: Create a pull request to the main repository, describing your changes.
 
+### The Pokémon 3D project community 
+Join our Discord: [The Pokémon 3D project](https://discord.gg/4JptVPw8qn)
+
 ## How to Add More Models
 
 To add new Pokémon models to the app, follow these steps:
