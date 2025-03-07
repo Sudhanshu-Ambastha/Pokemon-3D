@@ -3,7 +3,7 @@
 # Define paths
 GLB_DIR="models/glb"
 JSX_DIR="models/gltfjsx"
-LOG_FILE="models/missing_files.txt"
+LOG_FILE="scripts/missing_files.txt"
 
 # Ensure logs directory exists
 mkdir -p logs

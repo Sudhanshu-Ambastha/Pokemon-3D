@@ -2,8 +2,8 @@
 set -e
 
 # Define the error log file
-ERROR_LOG="models/error.txt"
-FINAL_ERROR_LOG="models/final_errors.txt"
+ERROR_LOG="scripts/error.txt"
+FINAL_ERROR_LOG="scripts/final_errors.txt"
 
 # Ensure logs directory exists
 mkdir -p logs

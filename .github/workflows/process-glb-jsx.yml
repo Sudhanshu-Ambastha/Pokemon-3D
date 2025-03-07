@@ -2,7 +2,7 @@ name: Process GLB & JSX Files
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   workflow_dispatch:
 
 jobs:
@@ -36,6 +36,26 @@ jobs:
 
       - name: Cleanup Orphaned JSX Files
         run: bash scripts/cleanup_orphan_jsx.sh
+
+      - name: Build Webpack Bundles
+        run: bash scripts/webpack_build.sh
+
+      - name: Cleanup Orphaned Bundles
+        run: bash scripts/cleanup_bundles.sh
+
+      - name: Check Webpack Error Log
+        run: |
+          if [ -s scripts/error.txt ]; then
+            echo "Webpack build failed. See scripts/error.txt for details."
+            exit 1
+          fi
+
+      - name: Upload Webpack Error Log (if any)
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: webpack-error-log
+          path: scripts/error.txt
 
       - name: Commit and Push Changes
         env:

@@ -22,3 +22,8 @@ coverage/
 .idea/
 *.swp
 .vercel
+
+# Webpack Build files
+webpack/dist/
+webpack/node_modules/
+dist/

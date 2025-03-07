@@ -1,0 +1,29 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "This project uses Webpack to bundle pre-compiled React components (JSX) for 3D Pokémon models, optimized for dynamic loading in React applications. It leverages @react-three/fiber and @react-three/drei for 3D rendering, and is designed to be integrated with a backend API that provides model metadata.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": ["react", "webpack", "3d", "models", "pokemon", "react-three-fiber", "react-three-drei", "glb", "jsx"],
+  "author": "Sudhanshu Ambastha",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^10.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.0.4",
+    "@react-three/fiber": "^9.0.4",
+    "three": "^0.174.0",
+    "three-stdlib": "^2.35.14"
+  }
+}
