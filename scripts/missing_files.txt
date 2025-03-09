@@ -1,1 +1,1 @@
-models/glb/shiny/871.glb
+models/glb/regular/929.glb
