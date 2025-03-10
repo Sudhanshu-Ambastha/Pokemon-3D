@@ -1,5 +1,3 @@
-models/glb/regular/926.glb
-models/glb/regular/973.glb
-models/glb/regular/965.glb
-models/glb/regular/957.glb
-models/glb/regular/943.glb
+models/glb/regular/974.glb
+models/glb/regular/927.glb
+models/glb/regular/975.glb
