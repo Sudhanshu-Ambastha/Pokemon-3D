@@ -4,6 +4,7 @@ SRC_DIR="models/glb"
 DEST_DIR="models/gltfjsx"
 
 echo "🔄 Checking GLB files for conversion..."
+modified=false
 
 find "$SRC_DIR" -type f -name "*.glb" | while read -r glb_file; do
   # Extract folder and filename
@@ -22,6 +23,12 @@ find "$SRC_DIR" -type f -name "*.glb" | while read -r glb_file; do
 
   # Process the GLB file
   npx gltfjsx@6.5.3 "$glb_file" -o "$jsx_file"
+  modified=true
 done
 
-echo "✅ Conversion completed!"
+# Print the appropriate message
+if [ "$modified" = true ]; then
+  echo "✅ Conversion completed!"
+else
+  echo "✨ All already present!"
+fi
