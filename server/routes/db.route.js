@@ -18,6 +18,10 @@ import {
   OriginPokemon,
 } from '../models/db.model.js';
 
+router.get('/ping', (req, res) => {
+  res.status(200).send('pong');
+});
+
 router.get('/regular', async (req, res) => {
   try {
     const pokemonData = await RegularPokemon.find({}).limit(721);
