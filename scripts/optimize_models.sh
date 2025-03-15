@@ -20,7 +20,7 @@ process_file() {
   # Create output directory if it doesn't exist
   mkdir -p "$output_dir"
 
-  gltf-transform resize "$input_file" "$output_file" --width 1024 --height 1024 && gltf-transform optimize "$output_file" "$output_file" --compress draco --texture-compress webp
+  npx gltf-transform resize "$input_file" "$output_file" --width 1024 --height 1024 && npx gltf-transform optimize "$output_file" "$output_file" --compress draco --texture-compress webp
 
   if [ $? -ne 0 ]; then
     echo "❌ Failed to optimize: $input_file"
