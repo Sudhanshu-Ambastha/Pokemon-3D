@@ -18,6 +18,8 @@ Welcome to the **Pokémon 3D Model Viewer**! This project allows users to view P
   - [Contributing](#contributing)
     - [Steps to Contribute:](#steps-to-contribute)
   - [How to Add More Models](#how-to-add-more-models)
+  - [Optimizing 3D Models](#optimizing-3d-models)
+    - [CLI Command for Optimization](#cli-command-for-optimization)
   - [Converting .glb Models to JSX Components](#converting-glb-models-to-jsx-components)
     - [Steps to Convert `.glb` to `.jsx`](#steps-to-convert-glb-to-jsx)
   - [Dependencies](#dependencies)
@@ -118,6 +120,19 @@ To add new Pokémon models to the app, follow these steps:
 npm install -g @gltf-transform/cli
 npm install @gltf-transform/cli --save-dev
 ```
+
+## Optimizing 3D Models
+
+To ensure optimal performance, particularly for web-based applications, it's crucial to optimize 3D models. This involves reducing file sizes and improving rendering efficiency.
+For more detailed information on using gltf-transform, refer to the official documentation: [gltf-transform](https://gltf-transform.dev/cli).
+
+### CLI Command for Optimization
+
+Use the following `gltf-transform` command to resize and optimize your `.glb` models:
+```bash
+gltf-transform resize models/glb/regular/1.glb models/opt/regular/1.glb --width 1024 --height 1024 && gltf-transform optimize models/opt/regular/1.glb models/opt/regular/1.glb --compress draco --texture-compress webp
+```
+
 ## Converting .glb Models to JSX Components
 
 For developers using JSX/Next.js, working with `.glb` models directly can be challenging. Instead, we can convert `.glb` files to `.jsx` components, which makes rendering and interaction easier.
