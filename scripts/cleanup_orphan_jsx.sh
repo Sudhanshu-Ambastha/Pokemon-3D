@@ -10,7 +10,7 @@ find models/gltfjsx -type f -name "*.jsx" | while read -r jsx_file; do
   model_name=$(basename "$jsx_file" .jsx)
   
   # Try to find a corresponding GLB file in models/glb
-  glb_file=$(find models/glb -type f -name "$model_name.glb" | head -n 1)
+  glb_file=$(find models/opt -type f -name "$model_name.glb" | head -n 1)
   
   if [ -z "$glb_file" ]; then
     echo "⛔No matching GLB found for $jsx_file. 🗑️Removing..."

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define paths
-GLB_DIR="models/glb"
+GLB_DIR="models/opt"
 JSX_DIR="models/gltfjsx"
 LOG_FILE="scripts/missing_files.txt"
 

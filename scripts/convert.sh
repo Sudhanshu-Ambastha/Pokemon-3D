@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SRC_DIR="models/glb"
+SRC_DIR="models/opt"
 DEST_DIR="models/gltfjsx"
 
 echo "🔄 Checking GLB files for conversion..."
