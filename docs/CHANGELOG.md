@@ -6,7 +6,7 @@
 
 * **JSON Pathing Correction:**
     * Addressed and fixed an issue where the JSON file paths were not being correctly processed, preventing models from loading properly in certain scenarios.
-    * This ensures that both optimized and non-optimized models are consistently accessible.
+    * This ensures that both optimized and non-optimized models are consistently accessible, you can preview the differences directly on the deployed site by switching between the optimized and non-optimized model views.
 
 ### **Enhancements:**
 
