@@ -115,7 +115,7 @@
         }
 
         .search-bar input {
-            width: 60%;
+            width: 50%;
             border: 1px solid #ddd;
         }
 
@@ -213,6 +213,11 @@
 
     <div class="container">
         <div class="search-bar">
+            <select id="optimizationFilter">
+                <option value="optimized">Optimized</option>
+                <option value="non-optimized">Non-Optimized</option>
+                <option value="both">Both</option>
+            </select>
             <select id="formFilter">
                 <option value="regular">Regular</option>
                 <option value="alolan">Alolan</option>
@@ -269,93 +274,117 @@
     };
 
     function fetchPokemonData() {
-        const formFilter = document.getElementById('formFilter').value;
+            const formFilter = document.getElementById('formFilter').value;
+            const optimizationFilter = document.getElementById('optimizationFilter').value;
 
-        const filePaths = {
-            regular: './models/json/Regular.json',
-            alolan: './models/json/alolan.json',
-            galarian: './models/json/galar.json',
-            huisian: './models/json/hisuian.json',
-            mega: './models/json/mega.json',
-            gmax: './models/json/Gmax.json',
-            megaxy: './models/json/xy.json',
-            unique: './models/json/unique.json',
-            shiny: './models/json/Shiny.json',
-            primal: './models/json/primal.json',
-            origin: './models/json/origin.json',
-            multi: './models/json/MultiForm.json',
-        };
+            const basePath = './models/json/';
+            const optPath = './models/optJson/';
 
-        const selectedPaths = formFilter === 'all'
-            ? Object.values(filePaths)
-            : [filePaths[formFilter]];
+            const formFilePaths = {
+                regular: 'Regular.json', 
+                alolan: 'alolan.json', 
+                galarian: 'galar.json',
+                huisian: 'hisuian.json', 
+                mega: 'mega.json', 
+                gmax: 'Gmax.json',
+                megaxy: 'xy.json', 
+                unique: 'unique.json', 
+                shiny: 'Shiny.json',
+                primal: 'primal.json', 
+                origin: 'origin.json', 
+                multi: 'MultiForm.json'
+            };
 
-        Promise.all(selectedPaths.map(path => fetch(path).then(res => res.json())))
-            .then(data => {
-                allPokemon = data.flatMap(dataset => dataset.pokemon || dataset);
-                filterAndRenderPokemon();
-            })
-            .catch(error => console.error('Error loading data:', error));
-    }
+            let selectedPaths = [];
+            if (formFilter === 'all') {
+                selectedPaths = Object.values(formFilePaths).map(file => basePath + file);
+            } else {
+                selectedPaths.push(basePath + formFilePaths[formFilter]);
+            }
+
+            if (optimizationFilter !== 'both') {
+                const optPaths = selectedPaths.map(path => path.replace(basePath, optPath));
+                selectedPaths = optimizationFilter === 'optimized' ? optPaths : selectedPaths;
+            }
+
+            Promise.all(selectedPaths.map(path => fetch(path).then(res => res.json())))
+                .then(data => {
+                    allPokemon = data.flatMap(dataset => dataset.pokemon || dataset);
+                    filterAndRenderPokemon();
+                })
+                .catch(error => console.error('Error loading data:', error));
+        }
 
     function filterAndRenderPokemon() {
-        const genFilter = document.getElementById('generationFilter').value;
-        const searchInput = document.getElementById('searchInput').value.toLowerCase();
-        const formFilter = document.getElementById('formFilter').value;
+            const genFilter = document.getElementById('generationFilter').value;
+            const searchInput = document.getElementById('searchInput').value.toLowerCase();
 
-        let filteredPokemon = allPokemon;
+            let filteredPokemon = allPokemon;
 
-        if (genFilter !== 'all') {
-            const [start, end] = generationRanges[genFilter];
-            filteredPokemon = filteredPokemon.filter(pokemon => pokemon.id >= start && pokemon.id <= end);
+            if (genFilter !== 'all') {
+                const [start, end] = generationRanges[genFilter];
+                filteredPokemon = filteredPokemon.filter(pokemon => pokemon.id >= start && pokemon.id <= end);
+            }
+
+            if (searchInput) {
+                filteredPokemon = filteredPokemon.filter(pokemon =>
+                    pokemon.name.toLowerCase().includes(searchInput) ||
+                    pokemon.id.toString().includes(searchInput)
+                );
+            }
+
+            renderPokedex(filteredPokemon);
         }
 
-        if (searchInput) {
-            filteredPokemon = filteredPokemon.filter(pokemon =>
-                pokemon.name.toLowerCase().includes(searchInput) || pokemon.id.toString().includes(searchInput)
-            );
+        function renderPokedex(pokemonList) {
+            const pokedex = document.getElementById('pokedex');
+            pokedex.innerHTML = '';
+
+            pokemonList.forEach(pokemon => {
+                const card = document.createElement('div');
+                card.classList.add('pokemon-card');
+
+                const modelViewer = document.createElement('model-viewer');
+                modelViewer.setAttribute('camera-controls', '');
+                modelViewer.setAttribute('auto-rotate', '');
+                modelViewer.setAttribute('autoplay', '');
+                modelViewer.setAttribute('environment-image', 'neutral');
+                modelViewer.setAttribute('alt', `Model of ${pokemon.name}`);
+                modelViewer.setAttribute('src', pokemon.model);
+                card.appendChild(modelViewer);
+
+                const id = document.createElement('div');
+                id.classList.add('pokemon-id');
+                id.textContent = `ID: ${pokemon.id}`;
+                card.appendChild(id);
+
+                const name = document.createElement('h2');
+                name.textContent = pokemon.name;
+                card.appendChild(name);
+
+                card.addEventListener('click', () => openModal(pokemon.model));
+                pokedex.appendChild(card);
+            });
         }
 
-        renderPokedex(filteredPokemon);
-    }
+        function openModal(modelSrc) {
+            const modal = document.getElementById('modelModal');
+            const modelViewer = document.getElementById('modelViewerModal');
+            modelViewer.setAttribute('src', modelSrc);
+            modal.style.display = 'block';
+        }
 
-    function renderPokedex(pokemonList) {
-        const pokedex = document.getElementById('pokedex');
-        pokedex.innerHTML = '';
+        function closeModal() {
+            document.getElementById('modelModal').style.display = 'none';
+        }
 
-        pokemonList.forEach(pokemon => {
-            const card = document.createElement('div');
-            card.classList.add('pokemon-card');
+        document.getElementById('formFilter').addEventListener('change', fetchPokemonData);
+        document.getElementById('optimizationFilter').addEventListener('change', fetchPokemonData);
+        document.getElementById('generationFilter').addEventListener('change', filterAndRenderPokemon);
+        document.getElementById('searchInput').addEventListener('input', filterAndRenderPokemon);
+        document.getElementById('searchButton').addEventListener('click', filterAndRenderPokemon);
 
-            const modelViewer = document.createElement('model-viewer');
-            modelViewer.setAttribute('camera-controls', '');
-            modelViewer.setAttribute('auto-rotate', '');
-            modelViewer.setAttribute('autoplay', '');
-            modelViewer.setAttribute('environment-image', 'neutral');
-            modelViewer.setAttribute('alt', `Model of ${pokemon.name}`);
-            modelViewer.setAttribute('src', pokemon.model);
-            card.appendChild(modelViewer);
-
-            const id = document.createElement('div');
-            id.classList.add('pokemon-id');
-            id.textContent = `ID: ${pokemon.id}`;
-            card.appendChild(id);
-
-            const name = document.createElement('h2');
-            name.textContent = pokemon.name;
-            card.appendChild(name);
-
-            card.addEventListener('click', () => openModal(pokemon.model));
-            pokedex.appendChild(card);
-        });
-    }
-
-    document.getElementById('formFilter').addEventListener('change', fetchPokemonData);
-    document.getElementById('generationFilter').addEventListener('change', filterAndRenderPokemon);
-    document.getElementById('searchInput').addEventListener('input', filterAndRenderPokemon);
-    document.getElementById('searchButton').addEventListener('click', filterAndRenderPokemon);
-
-    fetchPokemonData();
+        fetchPokemonData();
     </script>
 </body>
 </html>
