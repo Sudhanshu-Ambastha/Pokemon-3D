@@ -2,7 +2,7 @@
 
 REPO_NAME=$1
 BRANCH=$2
-BASE_URL="https://raw.githubusercontent.com/$REPO_NAME/$BRANCH/models/glb"
+BASE_URL="https://raw.githubusercontent.com/$REPO_NAME/$BRANCH/models/opt"
 
 echo "🔄 Processing JSX file updates..."
 
