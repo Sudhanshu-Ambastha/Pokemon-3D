@@ -29,14 +29,19 @@
         .nav-links a {
             color: white;
             text-decoration: none;
-            padding: 5px 15px;
-            margin: 0 10px;
+            padding: 8px 16px;
+            margin: 0 5px;
             border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .nav-links a:hover {
             background-color: rgba(255, 255, 255, 0.2);
         }
 
         .nav-links a.active {
-            background-color: rgba(255, 255, 255, 0.4);
+            background-color: rgba(255, 255, 255, 0.3);
+            font-weight: bold;
         }
 
         .container {
@@ -157,6 +162,12 @@
                 padding: 0.8rem;
             }
 
+            .nav-links a {
+                padding: 6px 12px;
+                margin: 0 2px;
+                font-size: 0.9rem;
+            }
+
             .container {
                 padding: 1rem;
             }
@@ -226,10 +237,10 @@
 
 <body>
     <header>
-        <h1>Pokémon 3D Non-Optimized Model Viewer</h1>
+        <h1>Pokémon 3D Optimized Model Viewer</h1>
         <div class="nav-links">
-            <a href="#" class="active">Non-Optimized</a>
-            <a href="./opt.html">Optimized</a>
+            <a href="./index.html">Non-Optimized</a>
+            <a href="#" class="active">Optimized</a>
         </div>
     </header>
 
@@ -295,18 +306,18 @@
             const formFilter = document.getElementById('formFilter').value;
 
             const filePaths = {
-                regular: './models/json/Regular.json',
-                alolan: './models/json/alolan.json',
-                galarian: './models/json/galar.json',
-                huisian: './models/json/hisuian.json',
-                mega: './models/json/mega.json',
-                gmax: './models/json/Gmax.json',
-                megaxy: './models/json/xy.json',
-                unique: './models/json/unique.json',
-                shiny: './models/json/Shiny.json',
-                primal: './models/json/primal.json',
-                origin: './models/json/origin.json',
-                multi: './models/json/MultiForm.json',
+                regular: './models/optJson/Regular.json',
+                alolan: './models/optJson/alolan.json',
+                galarian: './models/optJson/galar.json',
+                huisian: './models/optJson/hisuian.json',
+                mega: './models/optJson/mega.json',
+                gmax: './models/optJson/Gmax.json',
+                megaxy: './models/optJson/xy.json',
+                unique: './models/optJson/unique.json',
+                shiny: './models/optJson/Shiny.json',
+                primal: './models/optJson/primal.json',
+                origin: './models/optJson/origin.json',
+                multi: './models/optJson/MultiForm.json',
             };
 
             const selectedPaths = formFilter === 'all'
@@ -371,18 +382,6 @@
                 card.addEventListener('click', () => openModal(pokemon.model));
                 pokedex.appendChild(card);
             });
-        }
-
-        function openModal(modelSrc) {
-            const modal = document.getElementById('modelModal');
-            const modelViewer = document.getElementById('modelViewerModal');
-            modelViewer.setAttribute('src', modelSrc);
-            modal.style.display = 'block';
-        }
-
-        function closeModal() {
-            const modal = document.getElementById('modelModal');
-            modal.style.display = 'none';
         }
 
         document.getElementById('formFilter').addEventListener('change', fetchPokemonData);
