@@ -1,5 +1,27 @@
 # Changelog
 
+## v0.2.1 - Bug Fixes and Optimization Documentation (2025-03-15)
+
+### **Bug Fixes:**
+
+* **JSON Pathing Correction:**
+    * Addressed and fixed an issue where the JSON file paths were not being correctly processed, preventing models from loading properly in certain scenarios.
+    * This ensures that both optimized and non-optimized models are consistently accessible.
+
+### **Enhancements:**
+
+* **Optimization Documentation:**
+    * Added comprehensive documentation on optimizing 3D models using `gltf-transform`.
+    * Provided clear instructions on the recommended optimization settings (1024x1024 resolution, Draco compression, WebP textures) and the CLI command.
+    * Included guidance on where to apply optimization and how to update JSON file paths.
+    * Added a link to the `gltf-transform` CLI documentation for further reference: [https://gltf-transform.dev/cli](https://gltf-transform.dev/cli).
+
+### **Version Release Notes:**
+
+This release focuses on addressing a critical bug related to JSON file path processing and enhancing the documentation with detailed optimization guidelines. The bug fix ensures that all models load correctly, while the optimization documentation empowers developers to improve model performance effectively.
+
+---
+
 ## v0.2.0 - Automated JSX Model Components (2025-02-23)
 
 ### **Enhancements & Fixes:**
