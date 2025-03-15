@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
@@ -203,9 +204,9 @@
                 right: 10px;
             }
         }
- 
     </style>
 </head>
+
 <body>
     <header>
         <h1>Pokémon 3D Model Viewer</h1>
@@ -254,26 +255,27 @@
     <div id="modelModal">
         <div id="modalContent">
             <span class="close" onclick="closeModal()">❌</span>
-            <model-viewer id="modelViewerModal" camera-controls auto-rotate ar autoplay alt="Animated Pokémon Model" environment-image="neutral" style="width: 100%; height: 300px;"></model-viewer>
+            <model-viewer id="modelViewerModal" camera-controls auto-rotate ar autoplay alt="Animated Pokémon Model"
+                environment-image="neutral" style="width: 100%; height: 300px;"></model-viewer>
         </div>
     </div>
 
     <script>
-    let allPokemon = [];
+        let allPokemon = [];
 
-    const generationRanges = {
-        1: [1, 151],
-        2: [152, 251],
-        3: [252, 386],
-        4: [387, 493],
-        5: [494, 649],
-        6: [650, 721],
-        7: [722, 809],
-        8: [810, 905],
-        9: [906, 1025]
-    };
+        const generationRanges = {
+            1: [1, 151],
+            2: [152, 251],
+            3: [252, 386],
+            4: [387, 493],
+            5: [494, 649],
+            6: [650, 721],
+            7: [722, 809],
+            8: [810, 905],
+            9: [906, 1025]
+        };
 
-    function fetchPokemonData() {
+        function fetchPokemonData() {
             const formFilter = document.getElementById('formFilter').value;
             const optimizationFilter = document.getElementById('optimizationFilter').value;
 
@@ -281,33 +283,40 @@
             const optPath = './models/optJson/';
 
             const formFilePaths = {
-                regular: 'Regular.json', 
-                alolan: 'alolan.json', 
+                regular: 'Regular.json',
+                alolan: 'alolan.json',
                 galarian: 'galar.json',
-                huisian: 'hisuian.json', 
-                mega: 'mega.json', 
+                huisian: 'hisuian.json',
+                mega: 'mega.json',
                 gmax: 'Gmax.json',
-                megaxy: 'xy.json', 
-                unique: 'unique.json', 
+                megaxy: 'xy.json',
+                unique: 'unique.json',
                 shiny: 'Shiny.json',
-                primal: 'primal.json', 
-                origin: 'origin.json', 
+                primal: 'primal.json',
+                origin: 'origin.json',
                 multi: 'MultiForm.json'
             };
 
             let selectedPaths = [];
             if (formFilter === 'all') {
-                selectedPaths = Object.values(formFilePaths).map(file => basePath + file);
+                selectedPaths = Object.values(formFilePaths);
             } else {
-                selectedPaths.push(basePath + formFilePaths[formFilter]);
+                selectedPaths.push(formFilePaths[formFilter]);
             }
 
-            if (optimizationFilter !== 'both') {
-                const optPaths = selectedPaths.map(path => path.replace(basePath, optPath));
-                selectedPaths = optimizationFilter === 'optimized' ? optPaths : selectedPaths;
+            let finalPaths = [];
+
+            if (optimizationFilter === 'optimized') {
+                finalPaths = selectedPaths.map(file => optPath + file);
+            } else if (optimizationFilter === 'non-optimized') {
+                finalPaths = selectedPaths.map(file => basePath + file);
+            } else { // optimizationFilter === 'both'
+                selectedPaths.forEach(file => {
+                    finalPaths.push(basePath + file, optPath + file);
+                });
             }
 
-            Promise.all(selectedPaths.map(path => fetch(path).then(res => res.json())))
+            Promise.all(finalPaths.map(path => fetch(path).then(res => res.json())))
                 .then(data => {
                     allPokemon = data.flatMap(dataset => dataset.pokemon || dataset);
                     filterAndRenderPokemon();
@@ -315,7 +324,7 @@
                 .catch(error => console.error('Error loading data:', error));
         }
 
-    function filterAndRenderPokemon() {
+        function filterAndRenderPokemon() {
             const genFilter = document.getElementById('generationFilter').value;
             const searchInput = document.getElementById('searchInput').value.toLowerCase();
 
@@ -387,4 +396,5 @@
         fetchPokemonData();
     </script>
 </body>
+
 </html>
