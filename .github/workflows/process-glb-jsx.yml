@@ -19,6 +19,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: Install glTF-Transform CLI
+        run: npm install --global @gltf-transform/cli
+
       - name: Create Logs Directory
         run: mkdir -p logs
 
