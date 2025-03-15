@@ -2,7 +2,7 @@
 
 REPO_NAME=$1
 BRANCH=$2
-BASE_URL="https://raw.githubusercontent.com/$REPO_NAME/$BRANCH/models/glb"
+BASE_URL="https://raw.githubusercontent.com/$REPO_NAME/$BRANCH/models/opt"
 
 echo "🔄 Processing JSX file updates..."
 
@@ -22,7 +22,7 @@ find models/gltfjsx -type f -name "*.jsx" -print0 | while IFS= read -r -d $'\0' 
   sed -i "s/export function Model(props)/export default function $NEW_FUNCTION_NAME(props)/g" "$jsx_file"
 
   # Remove the old useGLTF.preload if it exists
-  sed -i "/useGLTF.preload('https:\/\/raw.githubusercontent.com.*\/models\/glb\/.*.glb');/d" "$jsx_file"
+  sed -i "/useGLTF.preload('https:\/\/raw.githubusercontent.com.*\/models\/opt\/.*.glb');/d" "$jsx_file"
 
 done
 
