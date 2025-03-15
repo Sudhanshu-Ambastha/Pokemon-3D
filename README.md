@@ -124,6 +124,15 @@ npm install @gltf-transform/cli --save-dev
 ## Optimizing 3D Models
 
 To ensure optimal performance, particularly for web-based applications, it's crucial to optimize 3D models. This involves reducing file sizes and improving rendering efficiency.
+
+**Recommended Optimization Settings:**
+
+For the best balance of visual quality and performance, we recommend optimizing your `.glb` models with the following settings:
+
+* **Resolution:** Resize models to a maximum size of 1024x1024 pixels. This resolution provides good detail while keeping file sizes manageable.
+* **Geometry Compression:** Use Draco compression to reduce the size of the model's geometry without significantly impacting visual quality.
+* **Texture Compression:** Convert textures to WebP format, which offers excellent compression ratios and supports transparency.
+
 For more detailed information on using gltf-transform, refer to the official documentation: [gltf-transform](https://gltf-transform.dev/cli).
 
 ### CLI Command for Optimization
