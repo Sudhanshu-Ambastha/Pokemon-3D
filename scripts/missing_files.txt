@@ -1,1 +1,2 @@
-⛔No missing files found
+models/opt/shadow/150_X.glb
+models/opt/alolan/19.glb
