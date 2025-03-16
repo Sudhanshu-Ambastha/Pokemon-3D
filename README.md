@@ -110,7 +110,7 @@ To add new Pokémon models to the app, follow these steps:
    {
       "id": 25,
       "name": "Shiny Pikachu",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/25.glb",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/25.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/25.jsx"
     },
     ```
