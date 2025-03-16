@@ -2,7 +2,7 @@
   "pokemon": [
     {
       "id": 1,
-      "name": "Shiny  Bulbasaur",
+      "name": "Shiny Bulbasaur",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/1.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1.jsx"
     },

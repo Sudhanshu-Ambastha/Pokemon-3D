@@ -2,7 +2,7 @@
   "pokemon": [
     {
       "id": 1,
-      "name": "Shiny  Bulbasaur",
+      "name": "Shiny Bulbasaur",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1.jsx"
     },
@@ -2108,10 +2108,10 @@
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/350.jsx"
     },
     {
-    "id": 351,
-    "name": "Shiny Castform",
-    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/351.glb",
-    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/351.jsx"
+      "id": 351,
+      "name": "Shiny Castform",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/351.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/351.jsx"
     },
     {
       "id": 352,
@@ -2172,122 +2172,122 @@
       "name": "Shiny Snorunt",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/361.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/361.jsx"
-        },
-        {
+    },
+    {
       "id": 362,
       "name": "Shiny Glalie",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/362.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/362.jsx"
-        },
-        {
+    },
+    {
       "id": 363,
       "name": "Shiny Spheal",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/363.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/363.jsx"
-        },
-        {
+    },
+    {
       "id": 364,
       "name": "Shiny Sealeo",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/364.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/364.jsx"
-        },
-        {
+    },
+    {
       "id": 365,
       "name": "Shiny Walrein",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/365.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/365.jsx"
-        },
-        {
+    },
+    {
       "id": 366,
       "name": "Shiny Clamperl",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/366.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/366.jsx"
-        },
-        {
+    },
+    {
       "id": 367,
       "name": "Shiny Huntail",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/367.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/367.jsx"
-        },
-        {
+    },
+    {
       "id": 368,
       "name": "Shiny Gorebyss",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/368.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/368.jsx"
-        },
-        {
+    },
+    {
       "id": 369,
       "name": "Shiny Relicanth",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/369.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/369.jsx"
-        },
-        {
+    },
+    {
       "id": 370,
       "name": "Shiny Luvdisc",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/370.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/370.jsx"
-        },
-        {
+    },
+    {
       "id": 371,
       "name": "Shiny Bagon",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/371.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/371.jsx"
-        },
-        {
+    },
+    {
       "id": 372,
       "name": "Shiny Shelgon",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/372.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/372.jsx"
-        },
-        {
+    },
+    {
       "id": 373,
       "name": "Shiny Salamance",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/373.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/373.jsx"
-        },
-        {
+    },
+    {
       "id": 374,
       "name": "Shiny Beldum",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/374.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/374.jsx"
-        },
-        {
+    },
+    {
       "id": 375,
       "name": "Shiny Metang",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/375.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/375.jsx"
-        },
-        {
+    },
+    {
       "id": 376,
       "name": "Shiny Metagross",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/376.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/376.jsx"
-        },
-        {
+    },
+    {
       "id": 377,
       "name": "Shiny Regirock",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/377.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/377.jsx"
-        },
-        {
+    },
+    {
       "id": 378,
       "name": "Shiny Regice",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/378.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/378.jsx"
-        },
-        {
+    },
+    {
       "id": 379,
       "name": "Shiny Registeel",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/379.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/379.jsx"
-        },
-        {
+    },
+    {
       "id": 380,
       "name": "Shiny Latias",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/380.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/380.jsx"
-        },
-        {
+    },
+    {
       "id": 381,
       "name": "Shiny Latios",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/381.glb",
@@ -2412,721 +2412,721 @@
       "name": "Shiny Kricketot",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/401.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/401.jsx"
-        },
-        {
+    },
+    {
       "id": 402,
       "name": "Shiny Kricktune",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/402.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/402.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/402.jsx"
+    },
+    {
       "id": 403,
       "name": "Shiny Shinx",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/403.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/403.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/403.jsx"
+    },
+    {
       "id": 404,
       "name": "Shiny Luxio",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/404.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/404.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/404.jsx"
+    },
+    {
       "id": 405,
       "name": "Shiny Luxray",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/405.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/405.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/405.jsx"
+    },
+    {
       "id": 406,
       "name": "Shiny Budew",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/406.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/406.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/406.jsx"
+    },
+    {
       "id": 407,
       "name": "Shiny Roserade",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/407.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/407.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/407.jsx"
+    },
+    {
       "id": 408,
       "name": "Shiny Cranidos",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/408.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/408.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/408.jsx"
+    },
+    {
       "id": 409,
       "name": "Shiny Rampardos",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/409.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/409.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/409.jsx"
+    },
+    {
       "id": 410,
       "name": "Shiny Shieldon",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/410.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/410.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/410.jsx"
+    },
+    {
       "id": 411,
       "name": "Shiny Bastiodon",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/411.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/411.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/411.jsx"
+    },
+    {
       "id": 412,
       "name": "Shiny Burmy",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/412.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/412.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/412.jsx"
+    },
+    {
       "id": 413,
       "name": "Shiny Wormadam",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/413.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/413.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/413.jsx"
+    },
+    {
       "id": 414,
       "name": "Shiny Mothim",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/414.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/414.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/414.jsx"
+    },
+    {
       "id": 415,
       "name": "Shiny Combee",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/415.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/415.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/415.jsx"
+    },
+    {
       "id": 416,
       "name": "Shiny Vespiquen",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/416.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/416.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/416.jsx"
+    },
+    {
       "id": 417,
       "name": "Shiny Pashirisu",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/417.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/417.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/417.jsx"
+    },
+    {
       "id": 418,
       "name": "Shiny Buizel",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/418.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/418.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/418.jsx"
+    },
+    {
       "id": 419,
       "name": "Shiny Floatzel",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/419.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/419.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/419.jsx"
+    },
+    {
       "id": 420,
       "name": "Shiny Cherubi",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/420.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/420.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/420.jsx"
+    },
+    {
       "id": 421,
       "name": "Shiny Cherrim",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/421.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/421.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/421.jsx"
+    },
+    {
       "id": 422,
       "name": "Shiny Shellos",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/422.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/422.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/422.jsx"
+    },
+    {
       "id": 423,
       "name": "Shiny Gastrodon",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/423.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/423.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/423.jsx"
+    },
+    {
       "id": 424,
       "name": "Shiny Ambipom",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/424.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/424.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/424.jsx"
+    },
+    {
       "id": 425,
       "name": "Shiny Drifloon",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/425.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/425.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/425.jsx"
+    },
+    {
       "id": 426,
       "name": "Shiny Drifblim",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/426.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/426.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/426.jsx"
+    },
+    {
       "id": 427,
       "name": "Shiny Buneary",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/427.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/427.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/427.jsx"
+    },
+    {
       "id": 428,
       "name": "Shiny Lopunny",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/428.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/428.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/428.jsx"
+    },
+    {
       "id": 429,
       "name": "Shiny Mismagius",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/429.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/429.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/429.jsx"
+    },
+    {
       "id": 430,
       "name": "Shiny Honchkrow",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/430.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/430.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/430.jsx"
+    },
+    {
       "id": 431,
       "name": "Shiny Glameow",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/431.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/431.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/431.jsx"
+    },
+    {
       "id": 432,
       "name": "Shiny Purugly",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/432.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/432.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/432.jsx"
+    },
+    {
       "id": 433,
       "name": "Shiny Chingling",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/433.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/433.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/433.jsx"
+    },
+    {
       "id": 434,
       "name": "Shiny Stunky",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/434.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/434.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/434.jsx"
+    },
+    {
       "id": 435,
       "name": "Shiny Skuntank",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/435.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/435.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/435.jsx"
+    },
+    {
       "id": 436,
       "name": "Shiny Bronzor",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/436.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/436.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/436.jsx"
+    },
+    {
       "id": 437,
       "name": "Shiny Bronzong",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/437.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/437.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/437.jsx"
+    },
+    {
       "id": 438,
       "name": "Shiny Bonsly",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/438.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/438.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/438.jsx"
+    },
+    {
       "id": 439,
       "name": "Shiny Mime Jr.",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/439.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/439.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/439.jsx"
+    },
+    {
       "id": 440,
       "name": "Shiny Happiny",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/440.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/440.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/440.jsx"
+    },
+    {
       "id": 441,
       "name": "Shiny Chatot",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/441.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/441.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/441.jsx"
+    },
+    {
       "id": 442,
       "name": "Shiny Spiritomb",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/442.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/442.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/442.jsx"
+    },
+    {
       "id": 443,
       "name": "Shiny Gible",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/443.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/443.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/443.jsx"
+    },
+    {
       "id": 444,
       "name": "Shiny Gabite",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/444.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/444.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/444.jsx"
+    },
+    {
       "id": 445,
       "name": "Shiny Garchomp",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/445.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/445.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/445.jsx"
+    },
+    {
       "id": 446,
       "name": "Shiny Munchlax",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/446.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/446.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/446.jsx"
+    },
+    {
       "id": 447,
       "name": "Shiny Riolu",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/447.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/447.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/447.jsx"
+    },
+    {
       "id": 448,
       "name": "Shiny Lucario",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/448.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/448.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/448.jsx"
+    },
+    {
       "id": 449,
       "name": "Shiny Hippopotas",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/449.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/449.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/449.jsx"
+    },
+    {
       "id": 450,
       "name": "Shiny Hippowdon",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/450.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/450.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/450.jsx"
+    },
+    {
       "id": 451,
       "name": "Shiny Skorupi",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/451.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/451.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/451.jsx"
+    },
+    {
       "id": 452,
       "name": "Shiny Drapion",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/452.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/452.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/452.jsx"
+    },
+    {
       "id": 453,
       "name": "Shiny Croagunk",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/453.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/453.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/453.jsx"
+    },
+    {
       "id": 454,
       "name": "Shiny Toxicroak",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/454.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/454.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/454.jsx"
+    },
+    {
       "id": 455,
       "name": "Shiny Carnivine",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/455.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/455.jsx"
-        },
-         {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/455.jsx"
+    },
+    {
       "id": 456,
       "name": "Shiny Finneon",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/456.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/456.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/456.jsx"
+    },
+    {
       "id": 457,
       "name": "Shiny Lumineon",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/457.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/457.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/457.jsx"
+    },
+    {
       "id": 458,
       "name": "Shiny Mantyke",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/458.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/458.jsx"
-        },
-        {
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/458.jsx"
+    },
+    {
       "id": 459,
       "name": "Shiny Snover",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/459.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/459.jsx"
-       },
-       {
+    },
+    {
       "id": 460,
       "name": "Shiny Abomasnow",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/460.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/460.jsx"
-        },
-        {
+    },
+    {
       "id": 461,
       "name": "Shiny Weavile",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/461.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/461.jsx"
-        },
-        {
+    },
+    {
       "id": 462,
       "name": "Shiny Magnezone",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/462.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/462.jsx"
-        },
-        {
+    },
+    {
       "id": 463,
       "name": "Shiny Lickilicky",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/463.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/463.jsx"
-        },
-        {
+    },
+    {
       "id": 464,
       "name": "Shiny Rhyperior",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/464.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/464.jsx"
-        },
-        {
+    },
+    {
       "id": 465,
       "name": "Shiny Tangrowth",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/465.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/465.jsx"
-        },
-        {
+    },
+    {
       "id": 466,
       "name": "Shiny Electivire",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/466.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/466.jsx"
-        },
-        {
+    },
+    {
       "id": 467,
       "name": "Shiny Magmortar",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/467.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/467.jsx"
-        },
-        {
+    },
+    {
       "id": 468,
       "name": "Shiny Togekiss",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/468.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/468.jsx"
-        },
-        {
+    },
+    {
       "id": 469,
       "name": "Shiny Yanmega",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/469.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/469.jsx"
-        },
-        {
+    },
+    {
       "id": 470,
       "name": "Shiny Leafeon",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/470.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/470.jsx"
-        },
-        {
+    },
+    {
       "id": 471,
       "name": "Shiny Glaceon",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/471.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/471.jsx"
-        },
-        {
+    },
+    {
       "id": 472,
       "name": "Shiny Gliscor",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/472.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/472.jsx"
-        },
-        {
+    },
+    {
       "id": 473,
       "name": "Shiny Mamoswine",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/473.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/473.jsx"
-        },
-        {
+    },
+    {
       "id": 474,
       "name": "Shiny Porygon-Z",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/474.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/474.jsx"
-        },
-        {
+    },
+    {
       "id": 475,
       "name": "Shiny Gallade",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/475.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/475.jsx"
-        },
-        {
+    },
+    {
       "id": 476,
       "name": "Shiny Probopass",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/476.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/476.jsx"
-        },
-        {
+    },
+    {
       "id": 477,
       "name": "Shiny Dusknoir",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/477.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/477.jsx"
-        },
-        {
+    },
+    {
       "id": 478,
       "name": "Shiny Froslass",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/478.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/478.jsx"
-        },
-        {
+    },
+    {
       "id": 479,
       "name": "Shiny Rotom",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/479.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/479.jsx"
-        },
-        {
+    },
+    {
       "id": 480,
       "name": "Shiny Uxie",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/480.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/480.jsx"
-        },
-        {
+    },
+    {
       "id": 481,
       "name": "Shiny Mesprit",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/481.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/481.jsx"
-        },
-        {
+    },
+    {
       "id": 482,
       "name": "Shiny Azelf",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/482.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/482.jsx"
-        },
-        {
+    },
+    {
       "id": 483,
       "name": "Shiny Dialga",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/483.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/483.jsx"
-        },
-        {
+    },
+    {
       "id": 484,
       "name": "Shiny Palkia",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/484.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/484.jsx"
-        },
-        {
+    },
+    {
       "id": 485,
       "name": "Shiny Heatran",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/485.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/485.jsx"
-        },
-        {
+    },
+    {
       "id": 486,
       "name": "Shiny Regigigas",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/486.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/486.jsx"
-        },
-        {
+    },
+    {
       "id": 487,
       "name": "Shiny Giratina",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/487.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/487.jsx"
-        },
-        {
+    },
+    {
       "id": 488,
       "name": "Shiny Cresselia",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/488.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/488.jsx"
-        },
-        {
+    },
+    {
       "id": 489,
       "name": "Shiny Phione",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/489.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/489.jsx"
-        },
-        {
+    },
+    {
       "id": 490,
       "name": "Shiny Manaphy",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/490.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/490.jsx"
-        },
-        {
+    },
+    {
       "id": 491,
       "name": "Shiny Darkrai",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/491.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/491.jsx"
-        },
-        {
+    },
+    {
       "id": 492,
       "name": "Shiny Shaymin",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/492.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/492.jsx"
-        },
-        {
+    },
+    {
       "id": 493,
       "name": "Shiny Arceus",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/493.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/493.jsx"
-        },
-        {
+    },
+    {
       "id": 494,
       "name": "Shiny Victini",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/494.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/494.jsx"
-        },
-        {
+    },
+    {
       "id": 495,
       "name": "Shiny Snivy",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/495.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/495.jsx"
-        },
-        {
+    },
+    {
       "id": 496,
       "name": "Shiny Servine",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/496.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/496.jsx"
-        },
-        {
+    },
+    {
       "id": 497,
       "name": "Shiny Serperior",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/497.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/497.jsx"
-        },
-        {
+    },
+    {
       "id": 498,
       "name": "Shiny Tepig",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/498.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/498.jsx"
-        },
-        {
+    },
+    {
       "id": 499,
       "name": "Shiny Pignite",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/499.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/499.jsx"
-        },
-        {
+    },
+    {
       "id": 500,
       "name": "Shiny Emboar",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/500.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/500.jsx"
-        },
-        {
+    },
+    {
       "id": 501,
       "name": "Shiny Oshawott",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/501.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/501.jsx"
-        },
-        {
+    },
+    {
       "id": 502,
       "name": "Shiny Dewott",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/502.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/502.jsx"
-        },
-        {
+    },
+    {
       "id": 503,
       "name": "Shiny Samurott",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/503.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/503.jsx"
-        },
-        {
+    },
+    {
       "id": 504,
       "name": "Shiny Patrat",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/504.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/504.jsx"
-        },
-        {
+    },
+    {
       "id": 505,
       "name": "Shiny Watchog",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/505.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/505.jsx"
-        },
-        {
+    },
+    {
       "id": 506,
       "name": "Shiny Lillipup",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/506.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/506.jsx"
-        },
-        {
+    },
+    {
       "id": 507,
       "name": "Shiny Herdier",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/507.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/507.jsx"
-        },
-        {
+    },
+    {
       "id": 508,
       "name": "Shiny Stoutland",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/508.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/508.jsx"
-        },
-        {
+    },
+    {
       "id": 509,
       "name": "Shiny Purrloin",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/509.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/509.jsx"
-        },
-        {
+    },
+    {
       "id": 510,
       "name": "Shiny Liepard",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/510.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/510.jsx"
-        },
-        {
+    },
+    {
       "id": 511,
       "name": "Shiny Pansage",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/511.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/511.jsx"
-        },
-        {
+    },
+    {
       "id": 512,
       "name": "Shiny Simisage",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/512.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/512.jsx"
-        },
-        {
+    },
+    {
       "id": 513,
       "name": "Shiny Pansear",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/513.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/513.jsx"
-        },
-        {
+    },
+    {
       "id": 514,
       "name": "Shiny Simisear",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/514.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/514.jsx"
-        },
-        {
+    },
+    {
       "id": 515,
       "name": "Shiny Panpour",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/515.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/515.jsx"
-        },
-        {
+    },
+    {
       "id": 516,
       "name": "Shiny Simipour",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/516.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/516.jsx"
-        },
-        {
+    },
+    {
       "id": 517,
       "name": "Shiny Munna",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/517.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/517.jsx"
-        },
-        {
+    },
+    {
       "id": 518,
       "name": "Shiny Musharna",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/518.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/518.jsx"
-        },
-        {
+    },
+    {
       "id": 519,
       "name": "Shiny Pidove",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/519.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/519.jsx"
-        },
-        {
+    },
+    {
       "id": 520,
       "name": "Shiny Tranquill",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/520.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/520.jsx"
-        },
+    },
     {
       "id": 521,
       "name": "Shiny Unfezant-Male",
@@ -3857,7 +3857,7 @@
       "id": 641,
       "name": "Shiny Tornadus",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/641.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/641.jsx"
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/641.jsx"
     },
     {
       "id": 642,
@@ -4877,67 +4877,67 @@
       "id": 810,
       "name": "Shiny Grookey",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/810.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/810.jsx"
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/810.jsx"
     },
     {
       "id": 811,
       "name": "Shiny Thwackey",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/811.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/811.jsx"
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/811.jsx"
     },
     {
       "id": 812,
       "name": "Shiny Rillaboom",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/812.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/812.jsx"
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/812.jsx"
     },
     {
       "id": 813,
       "name": "Shiny Scorbunny",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/813.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/813.jsx"
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/813.jsx"
     },
     {
       "id": 814,
       "name": "Shiny Raboot",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/814.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/814.jsx"
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/814.jsx"
     },
     {
       "id": 815,
       "name": "Shiny Cinderace",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/815.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/815.jsx"
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/815.jsx"
     },
     {
       "id": 816,
       "name": "Shiny Sobble",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/816.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/816.jsx"
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/816.jsx"
     },
     {
       "id": 817,
       "name": "Shiny Drizzile",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/817.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/817.jsx"
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/817.jsx"
     },
     {
       "id": 818,
       "name": "Shiny Inteleon",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/818.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/818.jsx"
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/818.jsx"
     },
     {
       "id": 819,
       "name": "Shiny Skwovet",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/819.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/819.jsx"
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/819.jsx"
     },
     {
       "id": 820,
       "name": "Shiny Greedent",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/820.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/820.jsx"
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/820.jsx"
     },
     {
       "id": 821,
@@ -5309,7 +5309,7 @@
       "id": 882,
       "name": "Shiny Dracovish",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/882.glb",
-       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/882.jsx"
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/882.jsx"
     },
     {
       "id": 883,
@@ -5520,7 +5520,7 @@
       "name": "Shiny Oinkologne-Female",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/916-F.glb",
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/916-F.jsx"
-    },  
+    },
     {
       "id": 917,
       "name": "Shiny Tarountula",
@@ -6026,154 +6026,154 @@
       "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1000.jsx"
     },
     {
-        "id": 1001,
-        "name": "Shiny Wo-Chien",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1001.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1001.jsx"
+      "id": 1001,
+      "name": "Shiny Wo-Chien",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1001.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1001.jsx"
     },
     {
-        "id": 1002,
-        "name": "Shiny Chien-Pao",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1002.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1002.jsx"
+      "id": 1002,
+      "name": "Shiny Chien-Pao",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1002.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1002.jsx"
     },
     {
-        "id": 1003,
-        "name": "Shiny Ting-Lu",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1003.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1003.jsx"
+      "id": 1003,
+      "name": "Shiny Ting-Lu",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1003.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1003.jsx"
     },
     {
-        "id": 1004,
-        "name": "Shiny Chi-Yu",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1004.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1004.jsx"
+      "id": 1004,
+      "name": "Shiny Chi-Yu",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1004.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1004.jsx"
     },
     {
-        "id": 1005,
-        "name": "Shiny Roaring Moon",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1005.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1005.jsx"
+      "id": 1005,
+      "name": "Shiny Roaring Moon",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1005.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1005.jsx"
     },
     {
-        "id": 1006,
-        "name": "Shiny Iron Valiant",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1006.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1006.jsx"
+      "id": 1006,
+      "name": "Shiny Iron Valiant",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1006.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1006.jsx"
     },
     {
-        "id": 1007,
-        "name": "Shiny Koraidon",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1007.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1007.jsx"
+      "id": 1007,
+      "name": "Shiny Koraidon",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1007.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1007.jsx"
     },
     {
-        "id": 1008,
-        "name": "Shiny Miraidon",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1008.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1008.jsx"
+      "id": 1008,
+      "name": "Shiny Miraidon",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1008.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1008.jsx"
     },
     {
-        "id": 1009,
-        "name": "Shiny Walking Wake",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1009.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1009.jsx"
+      "id": 1009,
+      "name": "Shiny Walking Wake",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1009.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1009.jsx"
     },
     {
-        "id": 1010,
-        "name": "Shiny Iron Leaves",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1010.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1010.jsx"
+      "id": 1010,
+      "name": "Shiny Iron Leaves",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1010.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1010.jsx"
     },
     {
-        "id": 1011,
-        "name": "Shiny Dipplin",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1011.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1011.jsx"
+      "id": 1011,
+      "name": "Shiny Dipplin",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1011.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1011.jsx"
     },
     {
-        "id": 1012,
-        "name": "Shiny Poltchageist",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1012.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1012.jsx"
+      "id": 1012,
+      "name": "Shiny Poltchageist",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1012.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1012.jsx"
     },
     {
-        "id": 1013,
-        "name": "Shiny Sinistcha",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1013.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1013.jsx"
+      "id": 1013,
+      "name": "Shiny Sinistcha",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1013.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1013.jsx"
     },
     {
-        "id": 1014,
-        "name": "Shiny Okidogi",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1014.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1014.jsx"
+      "id": 1014,
+      "name": "Shiny Okidogi",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1014.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1014.jsx"
     },
     {
-        "id": 1015,
-        "name": "Shiny Munkidori",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1015.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1015.jsx"
-    }, 
-    {
-        "id": 1016,
-        "name": "Shiny Fezandipiti",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1016.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1016.jsx"
+      "id": 1015,
+      "name": "Shiny Munkidori",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1015.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1015.jsx"
     },
     {
-        "id": 1017,
-        "name": "Shiny Ogerpon",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1017.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1017.jsx"
+      "id": 1016,
+      "name": "Shiny Fezandipiti",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1016.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1016.jsx"
     },
     {
-        "id": 1018,
-        "name": "Shiny Archaludon",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1018.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1018.jsx"
+      "id": 1017,
+      "name": "Shiny Ogerpon",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1017.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1017.jsx"
     },
     {
-        "id": 1019,
-        "name": "Shiny Hydrapple",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1019.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1019.jsx"
+      "id": 1018,
+      "name": "Shiny Archaludon",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1018.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1018.jsx"
     },
     {
-        "id": 1020,
-        "name": "Shiny Gouging Fire",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1020.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1020.jsx"
+      "id": 1019,
+      "name": "Shiny Hydrapple",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1019.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1019.jsx"
     },
     {
-        "id": 1021,
-        "name": "Shiny Raging Bolt",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1021.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1021.jsx"
+      "id": 1020,
+      "name": "Shiny Gouging Fire",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1020.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1020.jsx"
     },
     {
-        "id": 1022,
-        "name": "Shiny Iron Boulder",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1022.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1022.jsx"
+      "id": 1021,
+      "name": "Shiny Raging Bolt",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1021.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1021.jsx"
     },
     {
-        "id": 1023,
-        "name": "Shiny Iron Crown",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1023.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1023.jsx"
+      "id": 1022,
+      "name": "Shiny Iron Boulder",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1022.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1022.jsx"
     },
     {
-        "id": 1024,
-        "name": "Shiny Terapagos",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1024.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1024.jsx"
+      "id": 1023,
+      "name": "Shiny Iron Crown",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1023.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1023.jsx"
     },
     {
-        "id": 1025,
-        "name": "Shiny Pecharunt",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1025.glb",
-        "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1025.jsx"
+      "id": 1024,
+      "name": "Shiny Terapagos",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1024.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1024.jsx"
+    },
+    {
+      "id": 1025,
+      "name": "Shiny Pecharunt",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1025.glb",
+      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/1025.jsx"
     }
   ]
 }
