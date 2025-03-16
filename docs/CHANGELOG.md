@@ -1,12 +1,13 @@
 # Changelog
 
-## v0.2.1 - Bug Fixes and Optimization Documentation (2025-03-15)
+## v0.2.1 - Optimized Models Implementation and Documentation (2025-03-15)
 
-### **Bug Fixes:**
+### **Implementation Change:**
 
-* **JSON Pathing Correction:**
-    * Addressed and fixed an issue where the JSON file paths were not being correctly processed, preventing models from loading properly in certain scenarios.
-    * This ensures that both optimized and non-optimized models are consistently accessible, you can preview the differences directly on the deployed site by switching between the optimized and non-optimized model views.
+* **Optimized Model Pathing:**
+    * Changed the JSON file paths to point to the optimized `.glb` models instead of the original, non-optimized versions.
+    * This ensures that the application now serves the optimized models by default, resulting in improved performance.
+    * You can preview the differences directly on the deployed site by switching between the optimized and non-optimized model views.
 
 ### **Enhancements:**
 
@@ -18,7 +19,7 @@
 
 ### **Version Release Notes:**
 
-This release focuses on addressing a critical bug related to JSON file path processing and enhancing the documentation with detailed optimization guidelines. The bug fix ensures that all models load correctly, while the optimization documentation empowers developers to improve model performance effectively.
+This release focuses on implementing optimized models by default and enhancing the documentation with detailed optimization guidelines. The implementation change ensures that all models load with improved performance, while the optimization documentation empowers developers to further optimize models effectively.
 
 ---
 
