@@ -14,7 +14,7 @@
     * Added comprehensive documentation on optimizing 3D models using `gltf-transform`.
     * Provided clear instructions on the recommended optimization settings (1024x1024 resolution, Draco compression, WebP textures) and the CLI command.
     * Included guidance on where to apply optimization and how to update JSON file paths.
-    * Added a link to the `gltf-transform` CLI documentation for further reference: [https://gltf-transform.dev/cli](https://gltf-transform.dev/cli).
+    * Added a link to the `gltf-transform` CLI documentation for further reference: [gltf-transform](https://gltf-transform.dev/cli).
 
 ### **Version Release Notes:**
 
