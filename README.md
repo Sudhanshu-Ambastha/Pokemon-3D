@@ -1,5 +1,5 @@
 # Pokémon 3D Models
-Welcome to the **Pokémon 3D Model Viewer**! This project allows users to view Pokémon in 3D using the `<model-viewer>` component. The app fetches data about Pokémon, displays their names, and lets users preview 3D models of various Pokémon.
+Welcome to the **Pokémon 3D Model Viewer**! Explore our collection of Pokémon 3D models directly in your browser using the interactive <model-viewer> previews in deployed site. This API provides the URLs for these ready-to-use models, allowing you to easily embed them into your own projects.
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css,js,npm,nodejs,react,express,mongo,threejs,postman,githubactions" />
