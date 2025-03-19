@@ -24,6 +24,7 @@ Welcome to the **Pokémon 3D Model Viewer**! Explore our collection of Pokémon 
     - [Steps to Convert `.glb` to `.jsx`](#steps-to-convert-glb-to-jsx)
   - [Dependencies](#dependencies)
   - [Pokémon Categories and Counts](#pokémon-categories-and-counts)
+  - [| **Origin Forms** | 3 | 3 | Origin Forms represent the true or primal state of certain legendary Pokémon, showcasing their full power and unique design. i.e  Giratina, and Dialga/Palkia.          |](#-origin-forms--3--3--origin-forms-represent-the-true-or-primal-state-of-certain-legendary-pokémon-showcasing-their-full-power-and-unique-design-ie--giratina-and-dialgapalkia----------)
   - [Note About APIs](#note-about-apis)
   - [Check Model Animations](#check-model-animations)
   - [Credits](#credits)
@@ -49,14 +50,14 @@ To fetch Pokémon data from this project for use in your own applications, you c
 ### API Endpoint
 The Pokémon data is exposed as a JSON API. You can access it using the following URL:
 ```
-https://pokemon3d-api.onrender.com/v1/
+https://pokemon3d-api.onrender.com/v1/pokemon?form=${FORM}
 ```
 
 You can use this endpoint to fetch the JSON data and use it in your applications to display Pokémon 3D models.
 
 Example of fetching data with JavaScript:
 ```
-fetch('https://pokemon3d-api.onrender.com/v1/${Form}')
+fetch('https://pokemon3d-api.onrender.com/v1/pokemon?form=${FORM}')
   .then(response => response.json())
   .then(data => {
     console.log(data); 

@@ -21,7 +21,7 @@ app.use(cors());
 
 const limiter = rateLimit({
     windowMs: 60 * 1000, 
-    max: 5, 
+    max: 15, 
     standardHeaders: true,
     legacyHeaders: false,
     message: 'Too many requests, please try again after 1 minute.',
@@ -41,7 +41,7 @@ app.get('/', (req, res) => {
        Welcome to the Pokemon3D API!\n
        See the docs at https://documenter.getpostman.com/view/29725199/2sAYX8KMU8 for available endpoints.\n
        To see the available 3D models, visit the https://sudhanshu-ambastha.github.io/Pokemon-3D/.\n
-       else proceed to the /v1/${Form} endpoint to get the list of all pokemon.
+       else proceed to the /v1/pokemon?form=${Form} endpoint to get the list of all pokemon.
     `);
 });
 
