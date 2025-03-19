@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 import express from 'express';
 import cors from 'cors';
+import rateLimit from 'express-rate-limit';
 import dotenv from 'dotenv';
 
 import router from './routes/db.route.js';
@@ -17,6 +18,16 @@ mongoose.connect(
 .catch(err => console.error('Error connecting to MongoDB:', err));
 
 app.use(cors());
+
+const limiter = rateLimit({
+    windowMs: 60 * 1000, 
+    max: 5, 
+    standardHeaders: true,
+    legacyHeaders: false,
+    message: 'Too many requests, please try again after 1 minute.',
+});
+
+app.use('/v1/', limiter);
 
 app.use('/v1', router); 
 

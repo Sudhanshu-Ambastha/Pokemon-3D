@@ -180,7 +180,7 @@ cd server
 npm i --save express
 npm i --save-dev nodemon
 npm i mongodb mongoose dotenv
-
+npm install express-rate-limit
 npm init -y && npm install express mongoose body-parser cors
 node server.js
 ```
