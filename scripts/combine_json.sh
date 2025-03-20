@@ -22,8 +22,8 @@ check_json_files() {
     return 0
 }
 
-# Function to group Pokémon by ID and forms
-group_pokemon_by_id() {
+# Function to merge Pokémon data from JSON files
+merge_pokemon_json() {
     local json_dir="$1"
     local output_file="$2"
 
@@ -33,29 +33,31 @@ group_pokemon_by_id() {
         return
     fi
 
-    # Merge all Pokémon data from JSON files
+    echo "🔄 Processing JSON files in $json_dir..."
+
+    # Merge and group Pokémon by ID and form
     merged_json=$(jq -s '
-        reduce .[] as $item (
+        reduce .[] as $file (
             {};
-            reduce $item.pokemon[] as $p (
+            reduce $file.pokemon[] as $p (
                 .;
-                ($p | {id, name, forms: { (.form): .model } }) as $new_p |
-                .[$new_p.id] |= (if . then . else {id: $new_p.id, name: $new_p.name, forms: {}} end) |
-                .[$new_p.id].forms += $new_p.forms
+                ($p | {id, name, form, model}) as $entry |
+                .[$entry.id] |= (if . then . else {id: $entry.id, name: $entry.name, forms: {}} end) |
+                .[$entry.id].forms[$entry.form] = $entry.model
             )
         ) | { pokemon: [.[]] }
     ' $(find "$json_dir" -maxdepth 1 -type f -name '*.json'))
 
-    # Write to output file
+    # Save to output file
     echo "$merged_json" > "$output_file"
+
+    echo "✅ Merged JSON saved to $output_file"
 }
 
 echo "🔄 Merging Pokémon JSON files..."
 
-# Merge optimized and non-optimized JSONs separately with form grouping
-group_pokemon_by_id "$OPTIMIZED_DIR" "$OPTIMIZED_OUTPUT"
-group_pokemon_by_id "$NON_OPTIMIZED_DIR" "$NON_OPTIMIZED_OUTPUT"
+# Process both optimized and non-optimized JSONs
+merge_pokemon_json "$OPTIMIZED_DIR" "$OPTIMIZED_OUTPUT"
+merge_pokemon_json "$NON_OPTIMIZED_DIR" "$NON_OPTIMIZED_OUTPUT"
 
-echo "✅ JSON files merged and grouped successfully!"
-echo "📂 Optimized JSON saved to: $OPTIMIZED_OUTPUT"
-echo "📂 Non-optimized JSON saved to: $NON_OPTIMIZED_OUTPUT"
+echo "✅ JSON files successfully merged!"
