@@ -22,6 +22,9 @@ jobs:
       - name: Install glTF-Transform CLI
         run: npm install --global @gltf-transform/cli
 
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
       - name: Create Logs Directory
         run: mkdir -p logs
 
@@ -62,6 +65,9 @@ jobs:
       #   with:
       #     name: webpack-error-log
       #     path: scripts/error.txt
+
+      - name: Combine JSON Files
+        run: bash scripts/combine_json.sh
 
       - name: Commit and Push Changes
         env:
