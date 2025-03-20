@@ -1,14 +1,11 @@
 #!/bin/bash
 
 # Paths (Modify as needed)
-OPTIMIZED_DIR="../models/optJson"
-NON_OPTIMIZED_DIR="../models/json"
-
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
+OPTIMIZED_DIR="$SCRIPT_DIR/../models/optJson"
+NON_OPTIMIZED_DIR="$SCRIPT_DIR/../models/json"
 OPTIMIZED_OUTPUT="./merged_optimized.json"
 NON_OPTIMIZED_OUTPUT="./merged_non_optimized.json"
-
-# Ensure the output directory exists
-mkdir -p "$OUTPUT_DIR"
 
 # Initialize empty JSON structure
 echo '{ "pokemon": [] }' > "$OPTIMIZED_OUTPUT"
@@ -21,12 +18,15 @@ group_pokemon_by_id() {
 
     # Merge all Pokémon data from JSON files
     merged_json=$(jq -s '
-      reduce .[] as $item ({}; 
-        reduce $item.pokemon[] as $p (.; 
-          .[$p.id] |= (if . then . else { "id": $p.id, "name": $p.name, "forms": {} } end) 
-          | .[$p.id].forms[$p.form] = $p.model
-        )
-      ) | { "pokemon": [.[]] }
+        reduce .[] as $item (
+            {};
+            reduce $item.pokemon[] as $p (
+                .;
+                ($p | {id, name, forms: { (.form): .model } }) as $new_p |
+                .[$new_p.id] |= (if . then . else {id: $new_p.id, name: $new_p.name, forms: {}} end) |
+                .[$new_p.id].forms += $new_p.forms
+            )
+        ) | { pokemon: [.[]] }
     ' "$json_dir"/*.json)
 
     # Write to output file
