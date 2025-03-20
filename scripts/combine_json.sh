@@ -1,9 +1,13 @@
 #!/bin/bash
 
-# Paths (Modify as needed)
+# Paths
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
 OPTIMIZED_DIR="$SCRIPT_DIR/../models/optJson"
 NON_OPTIMIZED_DIR="$SCRIPT_DIR/../models/json"
+OUTPUT_DIR="$SCRIPT_DIR/../jsons/merged"
+
+OPTIMIZED_OUTPUT="$OUTPUT_DIR/merged_optimized.json"
+NON_OPTIMIZED_OUTPUT="$OUTPUT_DIR/merged_non_optimized.json"
 OUTPUT_DIR="$SCRIPT_DIR/../jsons/merged"
 
 OPTIMIZED_OUTPUT="$OUTPUT_DIR/merged_optimized.json"
@@ -38,7 +42,9 @@ merge_pokemon_json() {
     # Merge and group Pokémon by ID and form
     merged_json=$(jq -s '
         reduce .[] as $file (
+        reduce .[] as $file (
             {};
+            reduce $file.pokemon[] as $p (
             reduce $file.pokemon[] as $p (
                 .;
                 ($p | {id, name, form, model}) as $entry |
