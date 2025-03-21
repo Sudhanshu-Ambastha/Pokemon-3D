@@ -22,7 +22,7 @@ find "$SRC_DIR" -type f -name "*.glb" | while read -r glb_file; do
   mkdir -p "$DEST_DIR/$folder"
 
   # Process the GLB file
-  npx gltfjsx "$glb_file" -o "$jsx_file"
+  npx gltfjsx@6.5.3 "$glb_file" -o "$jsx_file"
   modified=true
 done
 

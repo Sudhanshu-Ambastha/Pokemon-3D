@@ -22,12 +22,6 @@ jobs:
       - name: Install glTF-Transform CLI
         run: npm install --global @gltf-transform/cli
 
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
-
-      - name: Install gltfjsx (Globally)
-        run: npm install --global @react-three/gltfjsx
-
       - name: Create Logs Directory
         run: mkdir -p logs
 
@@ -48,26 +42,6 @@ jobs:
 
       - name: Cleanup Orphaned JSX Files
         run: bash scripts/cleanup_orphan_jsx.sh
-
-      # - name: Build Webpack Bundles
-      #   run: bash scripts/webpack_build.sh
-
-      # - name: Cleanup Orphaned Bundles
-      #   run: bash scripts/cleanup_bundles.sh
-
-      # - name: Check Webpack Error Log
-      #   run: |
-      #     if [ -s scripts/error.txt ]; then
-      #       echo "Webpack build failed. See scripts/error.txt for details."
-      #       exit 1
-      #     fi
-
-      # - name: Upload Webpack Error Log (if any)
-      #   uses: actions/upload-artifact@v4
-      #   if: failure()
-      #   with:
-      #     name: webpack-error-log
-      #     path: scripts/error.txt
 
       - name: Combine JSON Files
         run: bash scripts/combine_json.sh
