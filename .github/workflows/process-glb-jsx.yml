@@ -43,8 +43,13 @@ jobs:
       - name: Cleanup Orphaned JSX Files
         run: bash scripts/cleanup_orphan_jsx.sh
 
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12" # Specify Python 3.12
+
       - name: Combine JSON Files
-        run: bash scripts/merge_json.py
+        run: python scripts/merge_json.py
 
       - name: Commit and Push Changes
         env:
