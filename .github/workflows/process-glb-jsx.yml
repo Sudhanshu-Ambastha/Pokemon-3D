@@ -25,6 +25,9 @@ jobs:
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
+      - name: Install gltfjsx (Globally)
+        run: npm install --global @react-three/gltfjsx@6.5.3
+
       - name: Create Logs Directory
         run: mkdir -p logs
 

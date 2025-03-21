@@ -1,506 +1,617 @@
 {
-  "pokemon": [
-    {
-      "id": 1,
-      "name": "Bulbasaur",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/1.glb"
-    },
-    {
-      "id": 2,
-      "name": "Ivysaur",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/2.glb"
-    },
-    {
-      "id": 3,
-      "name": "Venusaur",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/3.glb"
-    },
-    {
-      "id": 4,
-      "name": "Charmander",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/4.glb"
-    },
-    {
-      "id": 5,
-      "name": "Charmeleon",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/5.glb"
-    },
-    {
-      "id": 6,
-      "name": "Charizard",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/6.glb"
-    },
-    {
-      "id": 7,
-      "name": "Squirtle",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/7.glb"
-    },
-    {
-      "id": 8,
-      "name": "Wartortle",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/8.glb"
-    },
-    {
-      "id": 9,
-      "name": "Blastoise",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/9.glb"
-    },
-    {
-      "id": 10,
-      "name": "Caterpie",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/10.glb"
-    },
+"pokemon": [
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "forms": [
+      { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/1.glb" },
+      { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1.glb" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "forms": [
+      { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/2.glb" },
+      { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/2.glb" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "forms": [
+      { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/3.glb" },
+      { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/3.glb" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "forms": [
+      { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/4.glb" },
+      { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/4.glb" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "forms": [
+      { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/5.glb" },
+      { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/5.glb" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "forms": [
+      { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/6.glb" },
+      { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/6.glb" }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "forms": [
+      { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/7.glb" },
+      { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/7.glb" }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "forms": [
+      { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/8.glb" },
+      { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/8.glb" }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "forms": [
+      { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/9.glb" },
+      { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/9.glb" }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "forms": [
+      { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/10.glb" },
+      { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/10.glb" }
+    ]
+  },
     {
       "id": 11,
       "name": "Metapod",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/11.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/11.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/11.glb" }
+      ]
     },
     {
       "id": 12,
       "name": "Butterfree",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/12.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/12.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/12.glb" }
+      ]
     },
     {
       "id": 13,
       "name": "Weedle",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/13.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/13.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/13.glb" }
+      ]
     },
     {
       "id": 14,
       "name": "Kakuna",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/14.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/14.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/14.glb" }
+      ]
     },
     {
       "id": 15,
       "name": "Beedrill",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/15.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/15.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/15.glb" }
+      ]
     },
     {
       "id": 16,
       "name": "Pidgey",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/16.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/16.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/16.glb" }
+      ]
     },
     {
       "id": 17,
       "name": "Pidgeotto",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/17.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/17.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/17.glb" }
+      ]
     },
     {
       "id": 18,
       "name": "Pidgeot",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/18.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/18.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/18.glb" }
+      ]
     },
     {
       "id": 19,
       "name": "Rattata",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/19.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/19.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/19.glb" }
+      ]
     },
     {
       "id": 20,
       "name": "Raticate",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/20.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/20.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/20.glb" }
+      ]
     },
     {
       "id": 21,
       "name": "Spearow",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/21.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/21.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/21.glb" }
+      ]
     },
     {
       "id": 22,
       "name": "Fearow",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/22.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/22.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/22.glb" }
+      ]
     },
     {
       "id": 23,
       "name": "Ekans",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/23.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/23.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/23.glb" }
+      ]
     },
     {
       "id": 24,
       "name": "Arbok",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/24.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/24.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/24.glb" }
+      ]
     },
     {
       "id": 25,
       "name": "Pikachu",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/25.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/25.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/25.glb" }
+      ]
     },
     {
       "id": 26,
       "name": "Raichu",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/26.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/26.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/26.glb" }
+      ]
     },
     {
       "id": 27,
       "name": "Sandshrew",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/27.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/27.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/27.glb" }
+      ]
     },
     {
       "id": 28,
       "name": "Sandslash",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/28.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/28.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/28.glb" }
+      ]
     },
     {
       "id": 29,
       "name": "Nidoran♀",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/29.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/29.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/29.glb" }
+      ]
     },
     {
       "id": 30,
       "name": "Nidorina",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/30.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/30.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/30.glb" }
+      ]
     },
     {
       "id": 31,
       "name": "Nidoqueen",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/31.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/31.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/31.glb" }
+      ]
     },
     {
       "id": 32,
       "name": "Nidoran♂",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/32.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/32.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/32.glb" }
+      ]
     },
     {
       "id": 33,
       "name": "Nidorino",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/33.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/33.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/33.glb" }
+      ]
     },
     {
       "id": 34,
       "name": "Nidoking",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/34.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/34.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/34.glb" }
+      ]
     },
     {
       "id": 35,
       "name": "Clefairy",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/35.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/35.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/35.glb" }
+      ]
     },
     {
       "id": 36,
       "name": "Clefable",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/36.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/36.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/36.glb" }
+      ]
     },
     {
       "id": 37,
       "name": "Vulpix",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/37.glb"
+      "forms": [
+        { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/37.glb" },
+        { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/37.glb" }
+      ]
     },
     {
       "id": 38,
       "name": "Ninetales",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/38.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/38.glb"
     },
     {
       "id": 39,
       "name": "Jigglypuff",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/39.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/39.glb"
     },
     {
       "id": 40,
       "name": "Wigglytuff",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/40.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/40.glb"
     },
     {
       "id": 41,
       "name": "Zubat",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/41.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/41.glb"
     },
     {
       "id": 42,
       "name": "Golbat",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/42.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/42.glb"
     },
     {
       "id": 43,
       "name": "Oddish",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/43.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/43.glb"
     },
     {
       "id": 44,
       "name": "Gloom",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/44.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/44.glb"
     },
     {
       "id": 45,
       "name": "Vileplume",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/45.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/45.glb"
     },
     {
       "id": 46,
       "name": "Paras",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/46.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/46.glb"
     },
     {
       "id": 47,
       "name": "Parasect",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/47.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/47.glb"
     },
     {
       "id": 48,
       "name": "Venonat",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/48.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/48.glb"
     },
     {
       "id": 49,
       "name": "Venomoth",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/49.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/49.glb"
     },
     {
       "id": 50,
       "name": "Diglett",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/50.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/50.glb"
     },
     {
       "id": 51,
       "name": "Dugtrio",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/51.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/51.glb"
     },
     {
       "id": 52,
       "name": "Meowth",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/52.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/52.glb"
     },
     {
       "id": 53,
       "name": "Persian",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/53.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/53.glb"
     },
     {
       "id": 54,
       "name": "Psyduck",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/54.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/54.glb"
     },
     {
       "id": 55,
       "name": "Golduck",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/55.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/55.glb"
     },
     {
       "id": 56,
       "name": "Mankey",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/56.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/56.glb"
     },
     {
       "id": 57,
       "name": "Primeape",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/57.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/57.glb"
     },
     {
       "id": 58,
       "name": "Growlithe",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/58.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/58.glb"
     },
     {
       "id": 59,
       "name": "Arcanine",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/59.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/59.glb"
     },
     {
       "id": 60,
       "name": "Poliwag",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/60.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/60.glb"
     },
     {
       "id": 61,
       "name": "Poliwhirl",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/61.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/61.glb"
     },
     {
       "id": 62,
       "name": "Poliwrath",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/62.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/62.glb"
     },
     {
       "id": 63,
       "name": "Abra",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/63.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/63.glb"
     },
     {
       "id": 64,
       "name": "Kadabra",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/64.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/64.glb"
     },
     {
       "id": 65,
       "name": "Alakazam",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/65.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/65.glb"
     },
     {
       "id": 66,
       "name": "Machop",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/66.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/66.glb"
     },
     {
       "id": 67,
       "name": "Machoke",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/67.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/67.glb"
     },
     {
       "id": 68,
       "name": "Machamp",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/68.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/68.glb"
     },
     {
       "id": 69,
       "name": "Bellsprout",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/69.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/69.glb"
     },
     {
       "id": 70,
       "name": "Weepinbell",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/70.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/70.glb"
     },
     {
       "id": 71,
       "name": "Victreebel",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/71.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/71.glb"
     },
     {
       "id": 72,
       "name": "Tentacool",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/72.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/72.glb"
     },
     {
       "id": 73,
       "name": "Tentacruel",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/73.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/73.glb"
     },
     {
       "id": 74,
       "name": "Geodude",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/74.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/74.glb"
     },
     {
       "id": 75,
       "name": "Graveler",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/75.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/75.glb"
     },
     {
       "id": 76,
       "name": "Golem",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/76.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/76.glb"
     },
     {
       "id": 77,
       "name": "Ponyta",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/77.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/77.glb"
     },
     {
       "id": 78,
       "name": "Rapidash",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/78.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/78.glb"
     },
     {
       "id": 79,
       "name": "Slowpoke",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/79.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/79.glb"
     },
     {
       "id": 80,
       "name": "Slowbro",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/80.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/80.glb"
     },
     {
       "id": 81,
       "name": "Magnemite",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/81.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/81.glb"
     },
     {
       "id": 82,
       "name": "Magneton",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/82.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/82.glb"
     },
     {
       "id": 83,
       "name": "Farfetch'd",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/83.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/83.glb"
     },
     {
       "id": 84,
       "name": "Doduo",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/84.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/84.glb"
     },
     {
       "id": 85,
       "name": "Dodrio",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/85.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/85.glb"
     },
     {
       "id": 86,
       "name": "Seel",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/86.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/86.glb"
     },
     {
       "id": 87,
       "name": "Dewgong",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/87.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/87.glb"
     },
     {
       "id": 88,
       "name": "Grimer",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/88.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/88.glb"
     },
     {
       "id": 89,
       "name": "Muk",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/89.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/89.glb"
     },
     {
       "id": 90,
       "name": "Shellder",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/90.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/90.glb"
     },
     {
       "id": 91,
       "name": "Cloyster",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/91.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/91.glb"
     },
     {
       "id": 92,
       "name": "Gastly",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/92.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/92.glb"
     },
     {
       "id": 93,
       "name": "Haunter",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/93.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/93.glb"
     },
     {
       "id": 94,
       "name": "Gengar",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/94.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/94.glb"
     },
     {
       "id": 95,
       "name": "Onix",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/95.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/95.glb"
     },
     {
       "id": 96,
       "name": "Drowzee",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/96.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/96.glb"
     },
     {
       "id": 97,
       "name": "Hypno",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/97.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/97.glb"
     },
     {
       "id": 98,
       "name": "Krabby",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/98.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/98.glb"
     },
     {
       "id": 99,
       "name": "Kingler",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/99.glb"
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/99.glb"
     },
     {
       "id": 100,
       "name": "Voltorb",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/100.glb"
-    },
-    {
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Poke-3D-Models-Api/main/models/regular/100.glb"
+    },  
+    {    
       "id": 101,
       "name": "Electrode",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/101.glb"
@@ -513,10 +624,7 @@
     {
       "id": 103,
       "name": "Exeggutor",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/103.glb",
-      "forms": [
-        { "formName": "Alolan", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/alolan/103.glb" }
-      ]
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/103.glb"
     },  
     {
       "id": 104,
@@ -753,7 +861,7 @@
       "name": "Mewtwo",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/150.glb"
     },
-    {
+  {
       "id": 151,
       "name": "Mew",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/151.glb"

@@ -3,14 +3,12 @@
   {
     "id": 382,
     "name": "Kyogre",
-    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/primal/382.glb",          
-    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/primal/382.jsx"
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/primal/382.glb"          
   },
   {
     "id": 383,
     "name": "Groudon",
-    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/primal/383.glb",
-    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/primal/383.jsx"
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/primal/383.glb"
   }
 ]
 }
