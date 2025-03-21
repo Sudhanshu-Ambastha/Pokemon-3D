@@ -50,7 +50,7 @@ def process_form_file(filepath, pokemon_map):
         print(f"Error processing {os.path.basename(filepath)}: {e}")
 
 json_directory = "./models/json"
-output_json_file = "merged_optimized.json"
+output_json_file = "./merged_optimized.json"
 
 merge_pokemon_data(json_directory, output_json_file)
 print(f"Merged JSON saved to {output_json_file}")
