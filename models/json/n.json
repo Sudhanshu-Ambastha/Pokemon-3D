@@ -2,10 +2,9 @@
 "pokemon": [
   {
     "id": 1,
-    "name": "Bulbasaur",
     "forms": [
-      { "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/1.glb" },
-      { "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1.glb" }
+      { "name": "Bulbasaur", "formName": "Regular", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/1.glb" },
+      { "name": "Shiny Bulbasaur", "formName": "Shiny", "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1.glb" }
     ]
   },
   {

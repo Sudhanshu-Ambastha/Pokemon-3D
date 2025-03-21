@@ -44,7 +44,7 @@ jobs:
         run: bash scripts/cleanup_orphan_jsx.sh
 
       - name: Combine JSON Files
-        run: bash scripts/combine_json.sh
+        run: bash scripts/merge_json.py
 
       - name: Commit and Push Changes
         env:
