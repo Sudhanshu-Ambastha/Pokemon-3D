@@ -1,4 +1,3 @@
-// routes/db.route.js (MongoDB-free, single JSON file)
 import express from 'express';
 import NodeCache from 'node-cache';
 import fs from 'fs';
@@ -17,7 +16,7 @@ async function getPokemonData() {
     }
 
     try {
-        const filePath = path.join(__dirname, 'data', '../../Merged.json');
+        const filePath = path.join(__dirname, 'data', '../../models/MergedOpt.json');
         const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
         cache.set(cacheKey, jsonData.pokemon);
