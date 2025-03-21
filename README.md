@@ -177,12 +177,8 @@ For developers using JSX/Next.js, working with `.glb` models directly can be cha
 
 ## Dependencies
 ```
-cd server
-npm i --save express
-npm i --save-dev nodemon
-npm i mongodb mongoose dotenv
-npm install express-rate-limit
-npm init -y && npm install express mongoose body-parser cors
+cd server 
+npm i express nodemon mongodb mongoose dotenv express-rate-limit node-cache express-ipfilter cors
 node server.js
 ```
 
