@@ -100,12 +100,12 @@
         },
         {
           "name": "Mega Charizard X",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/xy/6.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/xy/x/6.glb",
           "formName": "xy"
         },
         {
           "name": "Mega Charizard Y",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/xy/6.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/xy/y/6.glb",
           "formName": "xy"
         },
         {
