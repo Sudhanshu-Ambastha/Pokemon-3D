@@ -6,10 +6,13 @@ def merge_pokemon_data(json_dir, output_file, model_url_base):
     pokemon_map = {}
     acceptable_forms = ["regular", "shiny", "gmax", "alolan", "galar", "hisuian", "mega", "xy", "unique", "primal", "origin", "multiform"]
 
-    # First process regular.json to establish base Pokemon
-    regular_file = os.path.join(json_dir, "regular.json")
-    if os.path.exists(regular_file):
-        process_regular_json(regular_file, pokemon_map, model_url_base)
+    # First process regular.json (case-insensitive) to establish base Pokemon
+    for filename in os.listdir(json_dir):
+        if filename.lower() == "regular.json":
+            regular_file = os.path.join(json_dir, filename)
+            if os.path.exists(regular_file):
+                process_regular_json(regular_file, pokemon_map, model_url_base)
+            break  # Stop after finding regular.json
 
     # Then process other forms
     for filename in os.listdir(json_dir):
