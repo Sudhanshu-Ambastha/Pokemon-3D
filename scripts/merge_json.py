@@ -9,17 +9,7 @@ def merge_pokemon_data(json_dir, output_file, model_url_base):
     # First process regular.json to establish base Pokemon
     regular_file = os.path.join(json_dir, "regular.json")
     if os.path.exists(regular_file):
-        with open(regular_file, "r") as f:
-            data = json.load(f)
-            if "pokemon" in data and isinstance(data["pokemon"], list):
-                for pokemon in data["pokemon"]:
-                    pokemon_id = pokemon.get("id")
-                    pokemon_name = pokemon.get("name")
-                    if pokemon_id is not None:
-                        pokemon_map[pokemon_id] = {
-                            "id": pokemon_id,
-                            "forms": [{"name": pokemon_name, "model": f"{model_url_base}/regular/{pokemon_id}.glb", "formName": "regular"}]
-                        }
+        process_regular_json(regular_file, pokemon_map, model_url_base)
 
     # Then process other forms
     for filename in os.listdir(json_dir):
@@ -39,7 +29,29 @@ def merge_pokemon_data(json_dir, output_file, model_url_base):
     with open(output_file, "wt") as f:
         json.dump(merged_data, f, indent=2)
 
+def process_regular_json(filepath, pokemon_map, model_url_base):
+    """Processes regular.json to establish base Pokemon entries."""
+    try:
+        with open(filepath, "r") as f:
+            data = json.load(f)
+            if "pokemon" in data and isinstance(data["pokemon"], list):
+                for pokemon in data["pokemon"]:
+                    pokemon_id = pokemon.get("id")
+                    pokemon_name = pokemon.get("name")
+                    if pokemon_id is not None:
+                        pokemon_map[pokemon_id] = {
+                            "id": pokemon_id,
+                            "forms": [{"name": pokemon_name, "model": f"{model_url_base}/regular/{pokemon_id}.glb", "formName": "regular"}]
+                        }
+                    else:
+                        print(f"Warning: Pokemon with missing 'id' found in {os.path.basename(filepath)}")
+            else:
+                print(f"Warning: 'pokemon' key not found or not a list in {os.path.basename(filepath)}")
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"Error processing {os.path.basename(filepath)}: {e}")
+
 def process_form_file(filepath, pokemon_map, model_url_base):
+    """Processes a single JSON file containing Pokémon form data."""
     form_name = os.path.splitext(os.path.basename(filepath))[0].lower()
     try:
         with open(filepath, "r") as f:
