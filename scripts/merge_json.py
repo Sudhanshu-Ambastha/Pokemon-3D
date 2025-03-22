@@ -74,16 +74,24 @@ def process_form_file(filepath, pokemon_map, model_url_base):
                             else:
                                 continue  # Skip if neither x nor y is found
                             model_url = f"{model_url_base}/{actual_form_name}/{pokemon_id}.glb"
+                            form_name = actual_form_name
                         else:
+                            # Extract form name from model url if it exists.
+                            if "/mega/" in model_url:
+                                form_name = "mega"
+                            elif "/gmax/" in model_url:
+                                form_name = "gmax"
+                            elif "/shiny/" in model_url:
+                                form_name = "shiny"
                             model_url = f"{model_url_base}/{form_name}/{pokemon_id}.glb"
 
                         if pokemon_id in pokemon_map:
                             existing_pokemon = pokemon_map[pokemon_id]
-                            existing_pokemon["forms"].append({"name": pokemon_name, "model": model_url, "formName": "xy"}) #keep form name as xy
+                            existing_pokemon["forms"].append({"name": pokemon_name, "model": model_url, "formName": form_name})
                         else:
                             pokemon_map[pokemon_id] = {
                                 "id": pokemon_id,
-                                "forms": [{"name": pokemon_name, "model": model_url, "formName": "xy"}] #keep form name as xy
+                                "forms": [{"name": pokemon_name, "model": model_url, "formName": form_name}]
                             }
                     else:
                         print(f"Warning: Pokemon with missing 'id' or 'model' found in {os.path.basename(filepath)}")
