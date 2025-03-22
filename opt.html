@@ -296,7 +296,7 @@
             fetch('https://pokemon3d-api.onrender.com/v1/pokemon')
                 .then(res => res.json())
                 .then(data => {
-                    allPokemon = data.pokemon;
+                    allPokemon = data.pokemon || data;
                     filterAndRenderPokemon();
                 })
                 .catch(error => console.error('Error loading data:', error));
