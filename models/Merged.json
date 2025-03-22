@@ -99,16 +99,6 @@
           "formName": "gmax"
         },
         {
-          "name": "Mega Charizard X",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/xy/x/6.glb",
-          "formName": "xy"
-        },
-        {
-          "name": "Mega Charizard Y",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/xy/y/6.glb",
-          "formName": "xy"
-        },
-        {
           "name": "Shiny Charizard",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/6.glb",
           "formName": "shiny"
@@ -157,11 +147,6 @@
           "name": "Blastoise",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/gmax/9.glb",
           "formName": "gmax"
-        },
-        {
-          "name": "Mega Blastoise Y",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/xy/9.glb",
-          "formName": "xy"
         },
         {
           "name": "Shiny Blastoise",
@@ -2542,16 +2527,6 @@
           "name": "Armoured Mewtwo",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/unique/150.glb",
           "formName": "unique"
-        },
-        {
-          "name": "Mega Mewtwo X",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/xy/150.glb",
-          "formName": "xy"
-        },
-        {
-          "name": "Mega Mewtwo Y",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/xy/150.glb",
-          "formName": "xy"
         },
         {
           "name": "Shiny Mewtwo",
