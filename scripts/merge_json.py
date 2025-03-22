@@ -63,29 +63,41 @@ def process_form_file(filepath, pokemon_map, model_url_base):
                 for pokemon in data["pokemon"]:
                     pokemon_id = pokemon.get("id")
                     pokemon_name = pokemon.get("name")
+                    model_url = pokemon.get("model")
 
-                    if pokemon_id is not None:
+                    if pokemon_id is not None and model_url is not None:
+                        if form_name == "xy" and "Mega Charizard" in pokemon_name or form_name == "xy" and "Mega Mewtwo" in pokemon_name or form_name == "xy" and "Mega Blastoise" in pokemon_name:
+                            if "/x/" in model_url:
+                                actual_form_name = "x"
+                            elif "/y/" in model_url:
+                                actual_form_name = "y"
+                            else:
+                                continue  # Skip if neither x nor y is found
+                            model_url = f"{model_url_base}/{actual_form_name}/{pokemon_id}.glb"
+                        else:
+                            model_url = f"{model_url_base}/{form_name}/{pokemon_id}.glb"
+
                         if pokemon_id in pokemon_map:
                             existing_pokemon = pokemon_map[pokemon_id]
-                            existing_pokemon["forms"].append({"name": pokemon_name, "model": f"{model_url_base}/{form_name}/{pokemon_id}.glb", "formName": form_name})
+                            existing_pokemon["forms"].append({"name": pokemon_name, "model": model_url, "formName": "xy"}) #keep form name as xy
                         else:
                             pokemon_map[pokemon_id] = {
                                 "id": pokemon_id,
-                                "forms": [{"name": pokemon_name, "model": f"{model_url_base}/{form_name}/{pokemon_id}.glb", "formName": form_name}]
+                                "forms": [{"name": pokemon_name, "model": model_url, "formName": "xy"}] #keep form name as xy
                             }
                     else:
-                        print(f"Warning: Pokemon with missing 'id' found in {os.path.basename(filepath)}")
+                        print(f"Warning: Pokemon with missing 'id' or 'model' found in {os.path.basename(filepath)}")
             else:
                 print(f"Warning: 'pokemon' key not found or not a list in {os.path.basename(filepath)}")
     except (FileNotFoundError, json.JSONDecodeError) as e:
         print(f"Error processing {os.path.basename(filepath)}: {e}")
 
 json_directory1 = "models/json"
-output_json_file1 = "Merged.json"
+output_json_file1 = "models/Merged.json"
 model_url1 = "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb"
 
 json_directory2 = "models/optJson"
-output_json_file2 = "MergedOpt.json"
+output_json_file2 = "models/MergedOpt.json"
 model_url2 = "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt"
 
 merge_pokemon_data(json_directory1, output_json_file1, model_url1)
