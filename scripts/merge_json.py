@@ -4,7 +4,7 @@ import os
 def merge_pokemon_data(json_dir, output_file, model_url_base):
     merged_data = {"pokemon": []}
     pokemon_map = {}
-    acceptable_forms = ["regular", "shiny", "gmax", "alolan", "galar", "hisuian", "mega", "xy", "unique", "primal", "origin", "multiform"]
+    acceptable_forms = ["regular", "shiny", "gmax", "alolan", "galar", "hisuian", "mega", "x", "y", "unique", "primal", "origin", "multiform"]
 
     # First process regular.json (case-insensitive) to establish base Pokemon
     for filename in os.listdir(json_dir):
@@ -72,8 +72,9 @@ def process_form_file(filepath, pokemon_map, model_url_base):
                             elif "Y" in pokemon_name:
                                 actual_form_name = "y"
                             else:
-                                actual_form_name = "xy"  # Default to xy if neither X nor Y found
-                            model_url = f"{model_url_base}/{form_name}/{actual_form_name}/{pokemon_id}.glb"
+                                continue #skip this pokemon
+                            model_url = f"{model_url_base}/{actual_form_name}/{pokemon_id}.glb"
+                            form_name = actual_form_name
                         else:
                             model_url = f"{model_url_base}/{form_name}/{pokemon_id}.glb"
 
