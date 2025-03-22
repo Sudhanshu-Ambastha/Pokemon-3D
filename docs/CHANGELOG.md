@@ -1,5 +1,45 @@
 # Changelog
 
+## Version 1.0.0 (22/03/2025) - Major API Update and Model Overhaul
+
+This release introduces a major update to the Pokémon 3D API, including breaking changes to the JSON response structure, significant model additions, and a comprehensive overhaul of the documentation.
+
+### Breaking API Changes
+**Important:** The API now returns Pokémon data in a new nested structure. Please update your applications to use the following JSON format:
+
+```json
+[
+  {
+    "id": 1,
+    "forms": [
+      {
+        "name": "Bulbasaur",
+        "model": "[https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/1.glb](https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/1.glb)",
+        "formName": "regular"
+      },
+      {
+        "name": "Shiny Bulbasaur",
+        "model": "[https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1.glb](https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1.glb)",
+        "formName": "shiny"
+      }
+      // ... more forms
+    ]
+  },
+  // ... more Pokémon objects
+]
+```
+
+**Migration Guidance:** If your application relies on the previous API structure, you will need to update your code to parse this new format. Pay close attention to the forms array, which now contains objects for each Pokémon's different forms (regular, shiny, etc.).
+
+**Comprehensive Documentation Overhaul**: The documentation has been completely rewritten to reflect the new API structure and provide more detailed explanations and examples.
+
+### Documentation Updates
+The documentation has been significantly updated to reflect the new API structure and provide more comprehensive information. Key changes include:
+- Clearer explanations of the API endpoint and JSON response structure.
+- Updated Pokémon category and count information.
+- For a practical example of how to use this API, please review the `opt.html` file. This page uses the updated API to display the optimized models.
+
+---
 ## v0.2.1 - Optimized Models Implementation and Documentation (2025-03-15)
 
 ### **Implementation Change:**
