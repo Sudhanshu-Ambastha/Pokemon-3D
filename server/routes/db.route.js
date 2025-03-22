@@ -16,7 +16,7 @@ async function getPokemonData() {
     }
 
     try {
-        const filePath = path.join(__dirname, 'data', '../../models/Merged.json');
+        const filePath = path.join(__dirname, 'data', '../../models/MergedOpt.json');
         const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
         cache.set(cacheKey, jsonData.pokemon);
