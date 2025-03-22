@@ -50,14 +50,14 @@ To fetch Pokémon data from this project for use in your own applications, you c
 ### API Endpoint
 The Pokémon data is exposed as a JSON API. You can access it using the following URL:
 ```
-https://pokemon3d-api.onrender.com/v1/pokemon?form=${FORM}
+https://pokemon3d-api.onrender.com/v1/pokemon
 ```
 
 You can use this endpoint to fetch the JSON data and use it in your applications to display Pokémon 3D models.
 
 Example of fetching data with JavaScript:
 ```
-fetch('https://pokemon3d-api.onrender.com/v1/pokemon?form=${FORM}')
+fetch('https://pokemon3d-api.onrender.com/v1/pokemon')
   .then(response => response.json())
   .then(data => {
     console.log(data); 
