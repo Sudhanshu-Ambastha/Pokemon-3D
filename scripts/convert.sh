@@ -13,9 +13,9 @@ find "$SRC_DIR" -type f -name "*.glb" | while read -r glb_file; do
   modelname="${filename%.glb}"
   jsx_file="$DEST_DIR/$folder/$modelname.jsx"
 
-  # Check if JSX file exists and is up to date
-  if [[ -f "$jsx_file" && $(stat -c %Y "$jsx_file") -ge $(stat -c %Y "$glb_file") ]]; then
-    continue # Skip if JSX file exists and is newer or same as GLB
+  # Check if JSX file exists and is up to date (with buffer)
+  if [[ -f "$jsx_file" && $(stat -c %Y "$jsx_file") -gt $(( $(stat -c %Y "$glb_file") + 1 )) ]]; then
+    continue # Skip if JSX file is newer than GLB + 1 second
   fi
 
   # Create directory if not exists
@@ -24,6 +24,7 @@ find "$SRC_DIR" -type f -name "*.glb" | while read -r glb_file; do
   # Process the GLB file
   npx gltfjsx@6.5.3 "$glb_file" -o "$jsx_file"
   modified=true
+  echo "🔄 Converted: $glb_file to $jsx_file" # Informative Message.
 done
 
 # Print the appropriate message
