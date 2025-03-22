@@ -2,10 +2,14 @@
 
 SRC_DIR="models/opt"
 DEST_DIR="models/gltfjsx"
+ERROR_FILE="scripts/gltfjsx_errors.txt"
 
 echo "🔄 Checking GLB files for conversion..."
 modified=false
 all_present=true
+
+# Clear previous error file
+> "$ERROR_FILE"
 
 find "$SRC_DIR" -type f -name "*.glb" | while read -r glb_file; do
   # Extract folder and filename
@@ -24,14 +28,24 @@ find "$SRC_DIR" -type f -name "*.glb" | while read -r glb_file; do
 
   # Process the GLB file
   npx gltfjsx@6.5.3 "$glb_file" -o "$jsx_file"
-  modified=true
-  all_present=false
-  echo "🔄 Converted: $glb_file to $jsx_file" # Informative Message.
+
+  if [ $? -ne 0 ]; then
+    echo "❌ Failed to convert: $glb_file"
+    echo "$glb_file" >> "$ERROR_FILE"
+  else
+    modified=true
+    all_present=false
+    echo "🔄 Converted: $glb_file to $jsx_file" # Informative Message.
+  fi
 done
 
 # Print the appropriate message
 if [ "$modified" = true ]; then
-  echo "✅ Conversion completed!"
+  if [ -s "$ERROR_FILE" ]; then
+    echo "⚠️ Conversion completed with errors. Check $ERROR_FILE for details."
+  else
+    echo "✅ Conversion completed!"
+  fi
 elif [ "$all_present" = true ]; then
   echo "✨ All already present!"
 fi
