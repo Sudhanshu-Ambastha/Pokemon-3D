@@ -81,11 +81,11 @@ def process_form_file(filepath, pokemon_map, model_url_base):
         print(f"Error processing {os.path.basename(filepath)}: {e}")
 
 json_directory1 = "models/json"
-output_json_file1 = "Merged.json"
+output_json_file1 = "models/Merged.json"
 model_url1 = "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb"
 
 json_directory2 = "models/optJson"
-output_json_file2 = "MergedOpt.json"
+output_json_file2 = "models/MergedOpt.json"
 model_url2 = "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt"
 
 merge_pokemon_data(json_directory1, output_json_file1, model_url1)
