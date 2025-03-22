@@ -66,7 +66,7 @@ def process_form_file(filepath, pokemon_map, model_url_base):
                     model_url = pokemon.get("model")
 
                     if pokemon_id is not None and model_url is not None:
-                        if form_name == "xy" and ("Mega Charizard" in pokemon_name or "Mega Mewtwo" in pokemon_name or "Mega Blastoise" in pokemon_name):
+                        if form_name == "xy" and ("Mega Charizard Y" in pokemon_name or "Mega Charizard X" in pokemon_name or "Mega Mewtwo" in pokemon_name or "Mega Blastoise" in pokemon_name):
                             if "/x/" in model_url:
                                 actual_form_name = "x"
                             elif "/y/" in model_url:
