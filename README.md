@@ -1,8 +1,10 @@
-# Pokémon 3D Models
-Welcome to the **Pokémon 3D Model Viewer**! Explore our collection of Pokémon 3D models directly in your browser using the interactive <model-viewer> previews in deployed site. This API provides the URLs for these ready-to-use models, allowing you to easily embed them into your own projects.
+# Pokémon 3D API
+
+Welcome to the **Pokémon 3D Model Viewer**! Explore a vast collection of Pokémon 3D models directly in your browser using interactive `<model-viewer>` previews. This project provides a JSON API to access URLs for these ready-to-use models, enabling seamless integration into your own web applications.
+
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,npm,nodejs,react,express,mongo,threejs,postman,githubactions" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,threejs,postman,githubactions" />
   </a>
 </p>
 
@@ -10,10 +12,11 @@ Welcome to the **Pokémon 3D Model Viewer**! Explore our collection of Pokémon 
 
 ## Table of Contents
 
-- [Pokémon 3D Models](#pokémon-3d-models)
+- [Pokémon 3D API](#pokémon-3d-api)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Using the API](#using-the-api)
+    - [JSON Response Structure](#json-response-structure)
     - [API Endpoint](#api-endpoint)
   - [Contributing](#contributing)
     - [Steps to Contribute:](#steps-to-contribute)
@@ -22,9 +25,7 @@ Welcome to the **Pokémon 3D Model Viewer**! Explore our collection of Pokémon 
     - [CLI Command for Optimization](#cli-command-for-optimization)
   - [Converting .glb Models to JSX Components](#converting-glb-models-to-jsx-components)
     - [Steps to Convert `.glb` to `.jsx`](#steps-to-convert-glb-to-jsx)
-  - [Dependencies](#dependencies)
   - [Pokémon Categories and Counts](#pokémon-categories-and-counts)
-  - [| **Origin Forms** | 3 | 3 | Origin Forms represent the true or primal state of certain legendary Pokémon, showcasing their full power and unique design. i.e  Giratina, and Dialga/Palkia.          |](#-origin-forms--3--3--origin-forms-represent-the-true-or-primal-state-of-certain-legendary-pokémon-showcasing-their-full-power-and-unique-design-ie--giratina-and-dialgapalkia----------)
   - [Note About APIs](#note-about-apis)
   - [Check Model Animations](#check-model-animations)
   - [Credits](#credits)
@@ -36,16 +37,42 @@ Welcome to the **Pokémon 3D Model Viewer**! Explore our collection of Pokémon 
 ---
 
 ## Features
-- View Pokémon in 3D directly in the browser.
-- Click on a Pokémon to preview its 3D model in a modal view.
-- The app fetches Pokémon data dynamically from a JSON file or MongoDB, displaying it in a grid layout.
-- Easy to extend by adding new Pokémon 3D models.
+
+-   View Pokémon in 3D directly in the browser.
+-   Access a JSON API for retrieving Pokémon 3D model URLs.
+-   Support for various Pokémon forms and categories.
+-   Instructions for adding and optimizing models.
+-   Guidance on converting `.glb` models to `.jsx` components.
 
 ---
 
 ## Using the API
+To fetch Pokémon data from this project for use in your own applications, you can consult the [documentation](https://documenter.getpostman.com/view/29725199/2sAYX8KMU8) or examine the provided [`example.html`](./UI/example.html) file. 
 
-To fetch Pokémon data from this project for use in your own applications, you can consult the [documentation](https://documenter.getpostman.com/view/29725199/2sAYX8KMU8) or examine the provided [`example.html`](./UI/example.html) file. Modify the example as needed for your specific use case, or follow these steps:
+### JSON Response Structure
+
+The API returns an array of Pokémon objects. Each object contains an `id` and an array of `forms`.
+
+    ```json
+    [
+      {
+        "id": 1,
+        "forms": [
+          {
+            "name": "Bulbasaur",
+            "model": "[https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/1.glb](https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/1.glb)",
+            "formName": "regular"
+          },
+          {
+            "name": "Shiny Bulbasaur",
+            "model": "[https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1.glb](https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1.glb)",
+            "formName": "shiny"
+          }
+        ]
+      },
+      // ... more Pokémon objects
+    ]
+    ```
 
 ### API Endpoint
 The Pokémon data is exposed as a JSON API. You can access it using the following URL:
@@ -101,25 +128,10 @@ We welcome contributions from the community! You can help by:
 
 To add new Pokémon models to the app, follow these steps:
 
-1. **Find or Create a 3D Model**: Search for Pokémon 3D models that are in `.glb` or `.gltf` formats. You can find models on various 3D model websites or create your own.
-2. **Update the `Regular.json`**: 
-    - Add an entry for the new Pokémon.
-    - Set the `model` property to the path of the 3D model.
-    Example:
-    ```json
-   {
-      "id": 25,
-      "name": "Shiny Pikachu",
-      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/25.glb",
-      "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/shiny/25.jsx"
-    },
-    ```
-3. **Ensure the Model is Hosted**: You can either host the model yourself or use an external link to the model file. Ensure the model is accessible from the project.
+1.  **Find or Create a 3D Model:** Locate or create Pokémon 3D models in `.glb` format.
+2.  **Update the Data Source:** Add a new Pokémon object to your data source (e.g., `MergedOpt.json`) or database, following the JSON Response Structure outlined above.
+3.  **Host the Model:** Ensure the model is hosted and accessible via a URL.
 
-```
-npm install -g @gltf-transform/cli
-npm install @gltf-transform/cli --save-dev
-```
 
 ## Optimizing 3D Models
 
@@ -137,10 +149,23 @@ For more detailed information on using gltf-transform, refer to the official doc
 
 ### CLI Command for Optimization
 
-Use the following `gltf-transform` command to resize and optimize your `.glb` models:
-```bash
-gltf-transform resize models/glb/regular/1.glb models/opt/regular/1.glb --width 1024 --height 1024 && gltf-transform optimize models/opt/regular/1.glb models/opt/regular/1.glb --compress draco --texture-compress webp
-```
+1.  Install `gltf-transform` globally:
+
+    ```bash
+    npm i -g @gltf-transform/cli
+    ```
+
+2.  Install `gltf-transform` as a dev dependency (optional):
+
+    ```bash
+    npm i @gltf-transform/cli --save-dev
+    ```
+
+3.  Use the following `gltf-transform` command to resize and optimize your `.glb` models:
+
+    ```bash
+    gltf-transform resize models/glb/regular/1.glb models/opt/regular/1.glb --width 1024 --height 1024 && gltf-transform optimize models/opt/regular/1.glb models/opt/regular/1.glb --compress draco --texture-compress webp
+    ```
 
 ## Converting .glb Models to JSX Components
 
@@ -175,13 +200,6 @@ For developers using JSX/Next.js, working with `.glb` models directly can be cha
   This ensures that the component can be imported correctly without causing errors.
 
 
-## Dependencies
-```
-cd server 
-npm i express nodemon dotenv express-rate-limit node-cache express-ipfilter cors
-node server.js
-```
-
 ## Pokémon Categories and Counts
 This app supports various Pokémon forms and categories. Below is a breakdown of the available Pokémon models and their counts:
 
@@ -212,8 +230,7 @@ To verify whether a model contains animations or to inspect its structure, you c
 3. If the model contains animations, they will appear in a dropdown menu; otherwise, no animations will be shown.
 
 ## Credits
-Check [Credits.md](./docs/CREDITS.md) for a list of contributors and resources used in this project.  This project is a community-driven effort
-to provide a comprehensive and accessible 3D model database for Pokémon.  We appreciate the contributions of
+Check [Credits.md](./docs/CREDITS.md) for a list of contributors and resources used in this project.  This project is a community-driven effort to provide a comprehensive and accessible 3D model database for Pokémon.  We appreciate the contributions of
 everyone who has helped make this project a reality.  If you have any questions or would like to
 contribute, please don't hesitate to reach out.  We're always happy to help and appreciate
 any assistance you can provide.  Thank you for your interest in this project!

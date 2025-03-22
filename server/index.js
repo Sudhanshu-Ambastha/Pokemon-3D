@@ -17,6 +17,8 @@ let blacklist = [];
 
 app.use(cors());
 
+app.set('trust proxy', true);
+
 const limiter = rateLimit({
     windowMs: 60 * 1000,
     max: 15,
