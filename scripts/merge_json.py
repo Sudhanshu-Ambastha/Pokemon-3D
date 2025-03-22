@@ -56,6 +56,7 @@ def process_regular_json(filepath, pokemon_map, model_url_base):
 def process_form_file(filepath, pokemon_map, model_url_base):
     """Processes a single JSON file containing Pokémon form data."""
     form_name = os.path.splitext(os.path.basename(filepath))[0].lower()
+    print(f"Processing form file: {filepath}, form_name: {form_name}") #debugging
     try:
         with open(filepath, "r") as f:
             data = json.load(f)
@@ -64,28 +65,35 @@ def process_form_file(filepath, pokemon_map, model_url_base):
                     pokemon_id = pokemon.get("id")
                     pokemon_name = pokemon.get("name")
 
+                    print(f"  Pokemon: {pokemon_id}, {pokemon_name}") #debugging
+
                     if pokemon_id is not None:
-                        # Extract X or Y from the name if formName is "xy"
-                        if form_name == "xy" and "Mega Charizard" in pokemon_name:
+                        if form_name == "xy" and "Mega Charizard" in pokemon_name or form_name == "xy" and "Mega Mewtwo" in pokemon_name or form_name == "xy" and "Mega Blastoise" in pokemon_name:
+                            print("    XY form detected") #debugging
                             if "X" in pokemon_name:
                                 actual_form_name = "x"
                             elif "Y" in pokemon_name:
                                 actual_form_name = "y"
                             else:
-                                continue #skip this pokemon
+                                print("    Skipping XY form (neither X nor Y)") #debugging
+                                continue  # Skip this pokemon, as it's not X or Y
                             model_url = f"{model_url_base}/{actual_form_name}/{pokemon_id}.glb"
-                            form_name = actual_form_name
+                            form_name = actual_form_name  # Update form_name to x or y
+                            print(f"    Converted to: form_name={form_name}, model_url={model_url}") #debugging
                         else:
                             model_url = f"{model_url_base}/{form_name}/{pokemon_id}.glb"
+                            print(f"    Normal form: model_url={model_url}") #debugging
 
                         if pokemon_id in pokemon_map:
                             existing_pokemon = pokemon_map[pokemon_id]
                             existing_pokemon["forms"].append({"name": pokemon_name, "model": model_url, "formName": form_name})
+                            print(f"    Added to existing pokemon {pokemon_id}") #debugging
                         else:
                             pokemon_map[pokemon_id] = {
                                 "id": pokemon_id,
                                 "forms": [{"name": pokemon_name, "model": model_url, "formName": form_name}]
                             }
+                            print(f"    Created new pokemon {pokemon_id}") #debugging
                     else:
                         print(f"Warning: Pokemon with missing 'id' found in {os.path.basename(filepath)}")
             else:
