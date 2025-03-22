@@ -48,8 +48,8 @@ jobs:
         with:
           python-version: "3.12" # Specify Python 3.12
 
-      - name: Combine JSON Files
-        run: python scripts/merge_json.py
+      # - name: Combine JSON Files
+      #   run: python scripts/merge_json.py
 
       - name: Commit and Push Changes
         env:

@@ -105,8 +105,8 @@
         },
         {
           "name": "Mega Charizard Y",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/x/6.glb",
-          "formName": "x"
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/y/6.glb",
+          "formName": "y"
         },
         {
           "name": "Shiny Charizard",
@@ -160,8 +160,8 @@
         },
         {
           "name": "Mega Blastoise Y",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/x/9.glb",
-          "formName": "x"
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/y/9.glb",
+          "formName": "y"
         },
         {
           "name": "Shiny Blastoise",
@@ -2550,8 +2550,8 @@
         },
         {
           "name": "Mega Mewtwo Y",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/x/150.glb",
-          "formName": "x"
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/y/150.glb",
+          "formName": "y"
         },
         {
           "name": "Shiny Mewtwo",
