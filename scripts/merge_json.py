@@ -6,19 +6,33 @@ def merge_pokemon_data(json_dir, output_file, model_url_base):
     pokemon_map = {}
     acceptable_forms = ["regular", "shiny", "gmax", "alolan", "galar", "hisuian", "mega", "xy", "unique", "primal", "origin", "multiform"]
 
+    # First process regular.json to establish base Pokemon
     regular_file = os.path.join(json_dir, "regular.json")
     if os.path.exists(regular_file):
-        process_form_file(regular_file, pokemon_map, model_url_base)
+        with open(regular_file, "r") as f:
+            data = json.load(f)
+            if "pokemon" in data and isinstance(data["pokemon"], list):
+                for pokemon in data["pokemon"]:
+                    pokemon_id = pokemon.get("id")
+                    pokemon_name = pokemon.get("name")
+                    if pokemon_id is not None:
+                        pokemon_map[pokemon_id] = {
+                            "id": pokemon_id,
+                            "forms": [{"name": pokemon_name, "model": f"{model_url_base}/regular/{pokemon_id}.glb", "formName": "regular"}]
+                        }
 
+    # Then process other forms
     for filename in os.listdir(json_dir):
         form_name = os.path.splitext(filename)[0].lower()
         if filename.endswith(".json") and form_name in acceptable_forms and form_name != "regular":
             filepath = os.path.join(json_dir, filename)
             process_form_file(filepath, pokemon_map, model_url_base)
 
-
-    merged_pokemon_list = list(pokemon_map.values())
-    merged_pokemon_list.sort(key=lambda x: x["id"])
+    # Convert map to sorted list
+    merged_pokemon_list = []
+    sorted_ids = sorted(pokemon_map.keys())
+    for pokemon_id in sorted_ids:
+        merged_pokemon_list.append(pokemon_map[pokemon_id])
 
     merged_data["pokemon"] = merged_pokemon_list
 
